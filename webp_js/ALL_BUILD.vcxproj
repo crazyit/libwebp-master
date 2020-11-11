@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C444203B-73D2-3883-8400-8660FEA17C17}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\sdk\libwebp-master\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/sdk/libwebp-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/sdk/libwebp-master -BD:/sdk/libwebp-master/webp_js --check-stamp-file D:/sdk/libwebp-master/webp_js/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-3.14\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-FindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GNU.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindGIF.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPNG.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindTIFF.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Internal\CMakeCheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\WriteBasicConfigVersionFile.cmake;D:\sdk\emsdk\emscripten\1.38.31\cmake\Modules\CMakeSystemSpecificInformation.cmake;D:\sdk\emsdk\emscripten\1.38.31\cmake\Modules\FindOpenGL.cmake;D:\sdk\emsdk\emscripten\1.38.31\cmake\Modules\Platform\Emscripten.cmake;D:\sdk\libwebp-master\cmake\WebPConfig.cmake.in;D:\sdk\libwebp-master\cmake\config.h.in;D:\sdk\libwebp-master\cmake\cpu.cmake;D:\sdk\libwebp-master\cmake\deps.cmake;D:\sdk\libwebp-master\src\demux\libwebpdemux.pc.in;D:\sdk\libwebp-master\src\libwebp.pc.in;D:\sdk\libwebp-master\src\libwebpdecoder.pc.in;D:\sdk\libwebp-master\webp_js\CMakeFiles\3.14.7\CMakeCCompiler.cmake;D:\sdk\libwebp-master\webp_js\CMakeFiles\3.14.7\CMakeSystem.cmake;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_DLFCN_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_GLUT_GLUT_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_GL_GLUT_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_INTTYPES_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_MEMORY_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_OPENGL_GLUT_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_SHLWAPI_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_STDINT_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_STDLIB_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_STRINGS_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_STRING_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_SYS_STAT_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TYPES_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_WINCODEC_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_WINDOWS_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\STDC_HEADERS.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\sdk\libwebp-master\webp_js\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/sdk/libwebp-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/sdk/libwebp-master -BD:/sdk/libwebp-master/webp_js --check-stamp-file D:/sdk/libwebp-master/webp_js/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-3.14\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-FindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GNU.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindGIF.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPNG.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindTIFF.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Internal\CMakeCheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\WriteBasicConfigVersionFile.cmake;D:\sdk\emsdk\emscripten\1.38.31\cmake\Modules\CMakeSystemSpecificInformation.cmake;D:\sdk\emsdk\emscripten\1.38.31\cmake\Modules\FindOpenGL.cmake;D:\sdk\emsdk\emscripten\1.38.31\cmake\Modules\Platform\Emscripten.cmake;D:\sdk\libwebp-master\cmake\WebPConfig.cmake.in;D:\sdk\libwebp-master\cmake\config.h.in;D:\sdk\libwebp-master\cmake\cpu.cmake;D:\sdk\libwebp-master\cmake\deps.cmake;D:\sdk\libwebp-master\src\demux\libwebpdemux.pc.in;D:\sdk\libwebp-master\src\libwebp.pc.in;D:\sdk\libwebp-master\src\libwebpdecoder.pc.in;D:\sdk\libwebp-master\webp_js\CMakeFiles\3.14.7\CMakeCCompiler.cmake;D:\sdk\libwebp-master\webp_js\CMakeFiles\3.14.7\CMakeSystem.cmake;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_DLFCN_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_GLUT_GLUT_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_GL_GLUT_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_INTTYPES_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_MEMORY_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_OPENGL_GLUT_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_SHLWAPI_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_STDINT_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_STDLIB_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_STRINGS_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_STRING_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_SYS_STAT_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TYPES_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_WINCODEC_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_WINDOWS_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\STDC_HEADERS.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\sdk\libwebp-master\webp_js\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/sdk/libwebp-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/sdk/libwebp-master -BD:/sdk/libwebp-master/webp_js --check-stamp-file D:/sdk/libwebp-master/webp_js/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\CMake\share\cmake-3.14\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-FindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GNU.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindGIF.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPNG.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindTIFF.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Internal\CMakeCheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\WriteBasicConfigVersionFile.cmake;D:\sdk\emsdk\emscripten\1.38.31\cmake\Modules\CMakeSystemSpecificInformation.cmake;D:\sdk\emsdk\emscripten\1.38.31\cmake\Modules\FindOpenGL.cmake;D:\sdk\emsdk\emscripten\1.38.31\cmake\Modules\Platform\Emscripten.cmake;D:\sdk\libwebp-master\cmake\WebPConfig.cmake.in;D:\sdk\libwebp-master\cmake\config.h.in;D:\sdk\libwebp-master\cmake\cpu.cmake;D:\sdk\libwebp-master\cmake\deps.cmake;D:\sdk\libwebp-master\src\demux\libwebpdemux.pc.in;D:\sdk\libwebp-master\src\libwebp.pc.in;D:\sdk\libwebp-master\src\libwebpdecoder.pc.in;D:\sdk\libwebp-master\webp_js\CMakeFiles\3.14.7\CMakeCCompiler.cmake;D:\sdk\libwebp-master\webp_js\CMakeFiles\3.14.7\CMakeSystem.cmake;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_DLFCN_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_GLUT_GLUT_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_GL_GLUT_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_INTTYPES_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_MEMORY_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_OPENGL_GLUT_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_SHLWAPI_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_STDINT_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_STDLIB_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_STRINGS_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_STRING_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_SYS_STAT_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TYPES_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_WINCODEC_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_WINDOWS_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\STDC_HEADERS.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\sdk\libwebp-master\webp_js\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/sdk/libwebp-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/sdk/libwebp-master -BD:/sdk/libwebp-master/webp_js --check-stamp-file D:/sdk/libwebp-master/webp_js/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\CMake\share\cmake-3.14\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-FindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GNU.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindGIF.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPNG.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindTIFF.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Internal\CMakeCheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\WriteBasicConfigVersionFile.cmake;D:\sdk\emsdk\emscripten\1.38.31\cmake\Modules\CMakeSystemSpecificInformation.cmake;D:\sdk\emsdk\emscripten\1.38.31\cmake\Modules\FindOpenGL.cmake;D:\sdk\emsdk\emscripten\1.38.31\cmake\Modules\Platform\Emscripten.cmake;D:\sdk\libwebp-master\cmake\WebPConfig.cmake.in;D:\sdk\libwebp-master\cmake\config.h.in;D:\sdk\libwebp-master\cmake\cpu.cmake;D:\sdk\libwebp-master\cmake\deps.cmake;D:\sdk\libwebp-master\src\demux\libwebpdemux.pc.in;D:\sdk\libwebp-master\src\libwebp.pc.in;D:\sdk\libwebp-master\src\libwebpdecoder.pc.in;D:\sdk\libwebp-master\webp_js\CMakeFiles\3.14.7\CMakeCCompiler.cmake;D:\sdk\libwebp-master\webp_js\CMakeFiles\3.14.7\CMakeSystem.cmake;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_DLFCN_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_GLUT_GLUT_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_GL_GLUT_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_INTTYPES_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_MEMORY_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_OPENGL_GLUT_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_SHLWAPI_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_STDINT_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_STDLIB_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_STRINGS_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_STRING_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_SYS_STAT_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TYPES_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_WINCODEC_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_WINDOWS_H.c;D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\STDC_HEADERS.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\sdk\libwebp-master\webp_js\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\sdk\libwebp-master\webp_js\ZERO_CHECK.vcxproj">
+      <Project>{92FA329D-1983-30E9-A9A4-AD92A00E6F08}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\sdk\libwebp-master\webp_js\webp.vcxproj">
+      <Project>{3127C8AA-5146-3B6A-AA9B-D7EFB72CCEDA}</Project>
+      <Name>webp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\sdk\libwebp-master\webp_js\webp_js.vcxproj">
+      <Project>{C00718BA-6236-34A7-9B46-BAB7626ED609}</Project>
+      <Name>webp_js</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\sdk\libwebp-master\webp_js\webp_wasm.vcxproj">
+      <Project>{20DACB46-3A58-3D48-80DA-1CCC1DEA1248}</Project>
+      <Name>webp_wasm</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\sdk\libwebp-master\webp_js\webpdecode.vcxproj">
+      <Project>{B0105A97-CB09-3B4D-A879-CD19984CFEED}</Project>
+      <Name>webpdecode</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\sdk\libwebp-master\webp_js\webpdecoder.vcxproj">
+      <Project>{E20A00E9-01BC-32A6-9D33-EA678DAE0397}</Project>
+      <Name>webpdecoder</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\sdk\libwebp-master\webp_js\webpdemux.vcxproj">
+      <Project>{57670B07-DE04-3C74-B5AC-3560B8EFE655}</Project>
+      <Name>webpdemux</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\sdk\libwebp-master\webp_js\webpdsp.vcxproj">
+      <Project>{D14A8768-3C16-3EF7-A5A1-5312A8E23A4B}</Project>
+      <Name>webpdsp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\sdk\libwebp-master\webp_js\webpdspdecode.vcxproj">
+      <Project>{A31EBAA8-D68A-3FAB-930B-DF8D1CA1A428}</Project>
+      <Name>webpdspdecode</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\sdk\libwebp-master\webp_js\webpencode.vcxproj">
+      <Project>{69F4F863-2129-3812-8D78-633188E98D3E}</Project>
+      <Name>webpencode</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\sdk\libwebp-master\webp_js\webputils.vcxproj">
+      <Project>{DBBEEEDC-C9EB-3EF5-95B4-B691F0BE7E0E}</Project>
+      <Name>webputils</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\sdk\libwebp-master\webp_js\webputilsdecode.vcxproj">
+      <Project>{42EE9737-AAD6-39C6-B375-E5BB7CC4FADA}</Project>
+      <Name>webputilsdecode</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

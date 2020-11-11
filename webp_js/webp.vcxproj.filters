@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\sdk\libwebp-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdecode.dir\$(Configuration)\alpha_dec.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdecode.dir\$(Configuration)\buffer_dec.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdecode.dir\$(Configuration)\frame_dec.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdecode.dir\$(Configuration)\idec_dec.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdecode.dir\$(Configuration)\io_dec.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdecode.dir\$(Configuration)\quant_dec.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdecode.dir\$(Configuration)\tree_dec.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdecode.dir\$(Configuration)\vp8_dec.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdecode.dir\$(Configuration)\vp8l_dec.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdecode.dir\$(Configuration)\webp_dec.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdsp.dir\$(Configuration)\alpha_processing.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdsp.dir\$(Configuration)\cpu.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdsp.dir\$(Configuration)\dec.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdsp.dir\$(Configuration)\dec_clip_tables.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdsp.dir\$(Configuration)\filters.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdsp.dir\$(Configuration)\lossless.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdsp.dir\$(Configuration)\rescaler.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdsp.dir\$(Configuration)\upsampling.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdsp.dir\$(Configuration)\yuv.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdsp.dir\$(Configuration)\cost.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdsp.dir\$(Configuration)\enc.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdsp.dir\$(Configuration)\lossless_enc.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdsp.dir\$(Configuration)\ssim.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpencode.dir\$(Configuration)\alpha_enc.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpencode.dir\$(Configuration)\analysis_enc.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpencode.dir\$(Configuration)\backward_references_cost_enc.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpencode.dir\$(Configuration)\backward_references_enc.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpencode.dir\$(Configuration)\config_enc.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpencode.dir\$(Configuration)\cost_enc.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpencode.dir\$(Configuration)\filter_enc.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpencode.dir\$(Configuration)\frame_enc.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpencode.dir\$(Configuration)\histogram_enc.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpencode.dir\$(Configuration)\iterator_enc.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpencode.dir\$(Configuration)\near_lossless_enc.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpencode.dir\$(Configuration)\picture_enc.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpencode.dir\$(Configuration)\picture_csp_enc.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpencode.dir\$(Configuration)\picture_psnr_enc.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpencode.dir\$(Configuration)\picture_rescale_enc.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpencode.dir\$(Configuration)\picture_tools_enc.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpencode.dir\$(Configuration)\predictor_enc.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpencode.dir\$(Configuration)\quant_enc.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpencode.dir\$(Configuration)\syntax_enc.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpencode.dir\$(Configuration)\token_enc.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpencode.dir\$(Configuration)\tree_enc.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpencode.dir\$(Configuration)\vp8l_enc.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpencode.dir\$(Configuration)\webp_enc.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webputils.dir\$(Configuration)\bit_reader_utils.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webputils.dir\$(Configuration)\color_cache_utils.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webputils.dir\$(Configuration)\filters_utils.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webputils.dir\$(Configuration)\huffman_utils.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webputils.dir\$(Configuration)\quant_levels_dec_utils.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webputils.dir\$(Configuration)\rescaler_utils.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webputils.dir\$(Configuration)\random_utils.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webputils.dir\$(Configuration)\thread_utils.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webputils.dir\$(Configuration)\utils.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webputils.dir\$(Configuration)\bit_writer_utils.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webputils.dir\$(Configuration)\huffman_encode_utils.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webputils.dir\$(Configuration)\quant_levels_utils.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{4B944D2F-D85F-311A-A673-F26C1A856A61}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

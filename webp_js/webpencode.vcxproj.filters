@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\sdk\libwebp-master\src\enc\alpha_enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\sdk\libwebp-master\src\enc\analysis_enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\sdk\libwebp-master\src\enc\backward_references_cost_enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\sdk\libwebp-master\src\enc\backward_references_enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\sdk\libwebp-master\src\enc\config_enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\sdk\libwebp-master\src\enc\cost_enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\sdk\libwebp-master\src\enc\filter_enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\sdk\libwebp-master\src\enc\frame_enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\sdk\libwebp-master\src\enc\histogram_enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\sdk\libwebp-master\src\enc\iterator_enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\sdk\libwebp-master\src\enc\near_lossless_enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\sdk\libwebp-master\src\enc\picture_enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\sdk\libwebp-master\src\enc\picture_csp_enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\sdk\libwebp-master\src\enc\picture_psnr_enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\sdk\libwebp-master\src\enc\picture_rescale_enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\sdk\libwebp-master\src\enc\picture_tools_enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\sdk\libwebp-master\src\enc\predictor_enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\sdk\libwebp-master\src\enc\quant_enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\sdk\libwebp-master\src\enc\syntax_enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\sdk\libwebp-master\src\enc\token_enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\sdk\libwebp-master\src\enc\tree_enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\sdk\libwebp-master\src\enc\vp8l_enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\sdk\libwebp-master\src\enc\webp_enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\sdk\libwebp-master\src\enc\backward_references_enc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\sdk\libwebp-master\src\enc\cost_enc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\sdk\libwebp-master\src\enc\histogram_enc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\sdk\libwebp-master\src\enc\vp8i_enc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\sdk\libwebp-master\src\enc\vp8li_enc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\sdk\libwebp-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F4D64DC4-934B-3BC3-B5D0-656B55B6AB4D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{67E76529-ADCB-3F0E-AEEE-A62F02D4AB3E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

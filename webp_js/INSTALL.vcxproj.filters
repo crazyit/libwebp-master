@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\sdk\libwebp-master\webp_js\CMakeFiles\86028137ffa57f807baf3a7ca4ded1aa\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EB7D0DAA-EFF9-3877-BC60-0072F7129AEE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

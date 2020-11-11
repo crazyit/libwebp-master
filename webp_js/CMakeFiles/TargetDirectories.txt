@@ -1,0 +1,14 @@
+D:/sdk/libwebp-master/webp_js/CMakeFiles/webpdecoder.dir
+D:/sdk/libwebp-master/webp_js/CMakeFiles/webpdecode.dir
+D:/sdk/libwebp-master/webp_js/CMakeFiles/webpdspdecode.dir
+D:/sdk/libwebp-master/webp_js/CMakeFiles/webputilsdecode.dir
+D:/sdk/libwebp-master/webp_js/CMakeFiles/webpdsp.dir
+D:/sdk/libwebp-master/webp_js/CMakeFiles/webpencode.dir
+D:/sdk/libwebp-master/webp_js/CMakeFiles/webputils.dir
+D:/sdk/libwebp-master/webp_js/CMakeFiles/webp.dir
+D:/sdk/libwebp-master/webp_js/CMakeFiles/webpdemux.dir
+D:/sdk/libwebp-master/webp_js/CMakeFiles/webp_js.dir
+D:/sdk/libwebp-master/webp_js/CMakeFiles/webp_wasm.dir
+D:/sdk/libwebp-master/webp_js/CMakeFiles/INSTALL.dir
+D:/sdk/libwebp-master/webp_js/CMakeFiles/ALL_BUILD.dir
+D:/sdk/libwebp-master/webp_js/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\sdk\libwebp-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdecode.dir\$(Configuration)\alpha_dec.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdecode.dir\$(Configuration)\buffer_dec.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdecode.dir\$(Configuration)\frame_dec.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdecode.dir\$(Configuration)\idec_dec.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdecode.dir\$(Configuration)\io_dec.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdecode.dir\$(Configuration)\quant_dec.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdecode.dir\$(Configuration)\tree_dec.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdecode.dir\$(Configuration)\vp8_dec.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdecode.dir\$(Configuration)\vp8l_dec.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdecode.dir\$(Configuration)\webp_dec.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdspdecode.dir\$(Configuration)\alpha_processing.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdspdecode.dir\$(Configuration)\cpu.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdspdecode.dir\$(Configuration)\dec.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdspdecode.dir\$(Configuration)\dec_clip_tables.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdspdecode.dir\$(Configuration)\filters.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdspdecode.dir\$(Configuration)\lossless.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdspdecode.dir\$(Configuration)\rescaler.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdspdecode.dir\$(Configuration)\upsampling.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webpdspdecode.dir\$(Configuration)\yuv.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webputilsdecode.dir\$(Configuration)\bit_reader_utils.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webputilsdecode.dir\$(Configuration)\color_cache_utils.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webputilsdecode.dir\$(Configuration)\filters_utils.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webputilsdecode.dir\$(Configuration)\huffman_utils.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webputilsdecode.dir\$(Configuration)\quant_levels_dec_utils.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webputilsdecode.dir\$(Configuration)\rescaler_utils.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webputilsdecode.dir\$(Configuration)\random_utils.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webputilsdecode.dir\$(Configuration)\thread_utils.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\sdk\libwebp-master\webp_js\webputilsdecode.dir\$(Configuration)\utils.o">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{4B944D2F-D85F-311A-A673-F26C1A856A61}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

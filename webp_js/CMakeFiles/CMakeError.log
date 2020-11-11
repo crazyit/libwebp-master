@@ -1,0 +1,639 @@
+Performing C SOURCE FILE Test HAVE_BUILTIN_BSWAP16 failed with the following output:
+Change Dir: D:/sdk/libwebp-master/webp_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_45a26.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27043 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /W1 /WX- /diagnostics:classic /O2 /Oy- /D HAVE_BUILTIN_BSWAP16 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_45a26.dir\Debug\\" /Fd"cmTC_45a26.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -s WASM=0 -g "D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\src.c"
+  WASM=0
+  
+cl : 命令行 warning D9002: 忽略未知选项“-s” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_45a26.vcxproj]
+cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_45a26.vcxproj]
+c1 : fatal error C1083: 无法打开源文件: “WASM=0”: No such file or directory [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_45a26.vcxproj]
+  src.c
+  正在生成代码...
+
+Source file was:
+
+    int main(void) {
+      (void)__builtin_bswap16(0);
+      return 0;
+    }
+  
+Performing C SOURCE FILE Test HAVE_BUILTIN_BSWAP32 failed with the following output:
+Change Dir: D:/sdk/libwebp-master/webp_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_b3390.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27043 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /W1 /WX- /diagnostics:classic /O2 /Oy- /D HAVE_BUILTIN_BSWAP32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b3390.dir\Debug\\" /Fd"cmTC_b3390.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -s WASM=0 -g "D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\src.c"
+  WASM=0
+  
+cl : 命令行 warning D9002: 忽略未知选项“-s” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_b3390.vcxproj]
+cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_b3390.vcxproj]
+c1 : fatal error C1083: 无法打开源文件: “WASM=0”: No such file or directory [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_b3390.vcxproj]
+  src.c
+  正在生成代码...
+
+Source file was:
+
+    int main(void) {
+      (void)__builtin_bswap32(0);
+      return 0;
+    }
+  
+Performing C SOURCE FILE Test HAVE_BUILTIN_BSWAP64 failed with the following output:
+Change Dir: D:/sdk/libwebp-master/webp_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_7f793.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27043 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /W1 /WX- /diagnostics:classic /O2 /Oy- /D HAVE_BUILTIN_BSWAP64 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7f793.dir\Debug\\" /Fd"cmTC_7f793.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -s WASM=0 -g "D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\src.c"
+  WASM=0
+  
+cl : 命令行 warning D9002: 忽略未知选项“-s” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_7f793.vcxproj]
+cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_7f793.vcxproj]
+c1 : fatal error C1083: 无法打开源文件: “WASM=0”: No such file or directory [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_7f793.vcxproj]
+  src.c
+  正在生成代码...
+
+Source file was:
+
+    int main(void) {
+      (void)__builtin_bswap64(0);
+      return 0;
+    }
+  
+Performing C SOURCE FILE Test HAVE_MATH_LIBRARY failed with the following output:
+Change Dir: D:/sdk/libwebp-master/webp_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_0f471.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27043 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /W1 /WX- /diagnostics:classic /O2 /Oy- /D HAVE_MATH_LIBRARY /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0f471.dir\Debug\\" /Fd"cmTC_0f471.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -s WASM=0 -g "D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\src.c"
+  WASM=0
+  
+cl : 命令行 warning D9002: 忽略未知选项“-s” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_0f471.vcxproj]
+cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_0f471.vcxproj]
+c1 : fatal error C1083: 无法打开源文件: “WASM=0”: No such file or directory [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_0f471.vcxproj]
+  src.c
+  正在生成代码...
+
+Source file was:
+
+    #include <math.h>
+    int main(int argc, char** argv) {
+      return (int)pow(argc, 2.5);
+    }
+  
+Determining if files stdlib.h;stdarg.h;string.h;float.h exist failed with the following output:
+Change Dir: D:/sdk/libwebp-master/webp_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_24306.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27043 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /W1 /WX- /diagnostics:classic /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_24306.dir\Debug\\" /Fd"cmTC_24306.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -s WASM=0 -g "D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\STDC_HEADERS.c"
+  WASM=0
+  
+cl : 命令行 warning D9002: 忽略未知选项“-s” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_24306.vcxproj]
+cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_24306.vcxproj]
+c1 : fatal error C1083: 无法打开源文件: “WASM=0”: No such file or directory [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_24306.vcxproj]
+  STDC_HEADERS.c
+  正在生成代码...
+
+Source:
+/* */
+#include <stdlib.h>
+#include <stdarg.h>
+#include <string.h>
+#include <float.h>
+
+
+int main(void){return 0;}
+
+Determining if files dlfcn.h exist failed with the following output:
+Change Dir: D:/sdk/libwebp-master/webp_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_b96f7.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27043 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /W1 /WX- /diagnostics:classic /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b96f7.dir\Debug\\" /Fd"cmTC_b96f7.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -s WASM=0 -g "D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_DLFCN_H.c"
+  WASM=0
+  
+cl : 命令行 warning D9002: 忽略未知选项“-s” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_b96f7.vcxproj]
+cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_b96f7.vcxproj]
+c1 : fatal error C1083: 无法打开源文件: “WASM=0”: No such file or directory [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_b96f7.vcxproj]
+  HAVE_DLFCN_H.c
+D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_DLFCN_H.c(2): fatal error C1083: 无法打开包括文件: “dlfcn.h”: No such file or directory [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_b96f7.vcxproj]
+  正在生成代码...
+
+Source:
+/* */
+#include <dlfcn.h>
+
+
+int main(void){return 0;}
+
+Determining if files GLUT/glut.h exist failed with the following output:
+Change Dir: D:/sdk/libwebp-master/webp_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_12605.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27043 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /W1 /WX- /diagnostics:classic /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_12605.dir\Debug\\" /Fd"cmTC_12605.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -s WASM=0 -g "D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_GLUT_GLUT_H.c"
+  WASM=0
+  
+cl : 命令行 warning D9002: 忽略未知选项“-s” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_12605.vcxproj]
+cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_12605.vcxproj]
+c1 : fatal error C1083: 无法打开源文件: “WASM=0”: No such file or directory [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_12605.vcxproj]
+  HAVE_GLUT_GLUT_H.c
+D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_GLUT_GLUT_H.c(2): fatal error C1083: 无法打开包括文件: “GLUT/glut.h”: No such file or directory [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_12605.vcxproj]
+  正在生成代码...
+
+Source:
+/* */
+#include <GLUT/glut.h>
+
+
+int main(void){return 0;}
+
+Determining if files GL/glut.h exist failed with the following output:
+Change Dir: D:/sdk/libwebp-master/webp_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_cdcdb.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27043 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /W1 /WX- /diagnostics:classic /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cdcdb.dir\Debug\\" /Fd"cmTC_cdcdb.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -s WASM=0 -g "D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_GL_GLUT_H.c"
+  WASM=0
+  
+cl : 命令行 warning D9002: 忽略未知选项“-s” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_cdcdb.vcxproj]
+cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_cdcdb.vcxproj]
+c1 : fatal error C1083: 无法打开源文件: “WASM=0”: No such file or directory [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_cdcdb.vcxproj]
+  HAVE_GL_GLUT_H.c
+D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_GL_GLUT_H.c(2): fatal error C1083: 无法打开包括文件: “GL/glut.h”: No such file or directory [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_cdcdb.vcxproj]
+  正在生成代码...
+
+Source:
+/* */
+#include <GL/glut.h>
+
+
+int main(void){return 0;}
+
+Determining if files inttypes.h exist failed with the following output:
+Change Dir: D:/sdk/libwebp-master/webp_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_2ed9d.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27043 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /W1 /WX- /diagnostics:classic /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2ed9d.dir\Debug\\" /Fd"cmTC_2ed9d.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -s WASM=0 -g "D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_INTTYPES_H.c"
+  WASM=0
+  
+cl : 命令行 warning D9002: 忽略未知选项“-s” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_2ed9d.vcxproj]
+cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_2ed9d.vcxproj]
+c1 : fatal error C1083: 无法打开源文件: “WASM=0”: No such file or directory [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_2ed9d.vcxproj]
+  HAVE_INTTYPES_H.c
+  正在生成代码...
+
+Source:
+/* */
+#include <inttypes.h>
+
+
+int main(void){return 0;}
+
+Determining if files memory.h exist failed with the following output:
+Change Dir: D:/sdk/libwebp-master/webp_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_7d1ac.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27043 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /W1 /WX- /diagnostics:classic /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7d1ac.dir\Debug\\" /Fd"cmTC_7d1ac.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -s WASM=0 -g "D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_MEMORY_H.c"
+  WASM=0
+  
+cl : 命令行 warning D9002: 忽略未知选项“-s” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_7d1ac.vcxproj]
+cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_7d1ac.vcxproj]
+c1 : fatal error C1083: 无法打开源文件: “WASM=0”: No such file or directory [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_7d1ac.vcxproj]
+  HAVE_MEMORY_H.c
+  正在生成代码...
+
+Source:
+/* */
+#include <memory.h>
+
+
+int main(void){return 0;}
+
+Determining if files OpenGL/glut.h exist failed with the following output:
+Change Dir: D:/sdk/libwebp-master/webp_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_56274.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27043 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /W1 /WX- /diagnostics:classic /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_56274.dir\Debug\\" /Fd"cmTC_56274.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -s WASM=0 -g "D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_OPENGL_GLUT_H.c"
+  WASM=0
+  
+cl : 命令行 warning D9002: 忽略未知选项“-s” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_56274.vcxproj]
+cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_56274.vcxproj]
+c1 : fatal error C1083: 无法打开源文件: “WASM=0”: No such file or directory [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_56274.vcxproj]
+  HAVE_OPENGL_GLUT_H.c
+D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_OPENGL_GLUT_H.c(2): fatal error C1083: 无法打开包括文件: “OpenGL/glut.h”: No such file or directory [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_56274.vcxproj]
+  正在生成代码...
+
+Source:
+/* */
+#include <OpenGL/glut.h>
+
+
+int main(void){return 0;}
+
+Determining if files shlwapi.h exist failed with the following output:
+Change Dir: D:/sdk/libwebp-master/webp_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_5aee4.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27043 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /W1 /WX- /diagnostics:classic /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5aee4.dir\Debug\\" /Fd"cmTC_5aee4.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -s WASM=0 -g "D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_SHLWAPI_H.c"
+  WASM=0
+  
+cl : 命令行 warning D9002: 忽略未知选项“-s” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_5aee4.vcxproj]
+cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_5aee4.vcxproj]
+c1 : fatal error C1083: 无法打开源文件: “WASM=0”: No such file or directory [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_5aee4.vcxproj]
+  HAVE_SHLWAPI_H.c
+  正在生成代码...
+
+Source:
+/* */
+#include <shlwapi.h>
+
+
+int main(void){return 0;}
+
+Determining if files stdint.h exist failed with the following output:
+Change Dir: D:/sdk/libwebp-master/webp_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_9abd5.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27043 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /W1 /WX- /diagnostics:classic /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9abd5.dir\Debug\\" /Fd"cmTC_9abd5.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -s WASM=0 -g "D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_STDINT_H.c"
+  WASM=0
+  
+cl : 命令行 warning D9002: 忽略未知选项“-s” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_9abd5.vcxproj]
+cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_9abd5.vcxproj]
+c1 : fatal error C1083: 无法打开源文件: “WASM=0”: No such file or directory [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_9abd5.vcxproj]
+  HAVE_STDINT_H.c
+  正在生成代码...
+
+Source:
+/* */
+#include <stdint.h>
+
+
+int main(void){return 0;}
+
+Determining if files stdlib.h exist failed with the following output:
+Change Dir: D:/sdk/libwebp-master/webp_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_1e163.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27043 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /W1 /WX- /diagnostics:classic /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1e163.dir\Debug\\" /Fd"cmTC_1e163.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -s WASM=0 -g "D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_STDLIB_H.c"
+  WASM=0
+  
+cl : 命令行 warning D9002: 忽略未知选项“-s” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_1e163.vcxproj]
+cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_1e163.vcxproj]
+c1 : fatal error C1083: 无法打开源文件: “WASM=0”: No such file or directory [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_1e163.vcxproj]
+  HAVE_STDLIB_H.c
+  正在生成代码...
+
+Source:
+/* */
+#include <stdlib.h>
+
+
+int main(void){return 0;}
+
+Determining if files strings.h exist failed with the following output:
+Change Dir: D:/sdk/libwebp-master/webp_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_3597a.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27043 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /W1 /WX- /diagnostics:classic /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3597a.dir\Debug\\" /Fd"cmTC_3597a.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -s WASM=0 -g "D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_STRINGS_H.c"
+  WASM=0
+  
+cl : 命令行 warning D9002: 忽略未知选项“-s” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_3597a.vcxproj]
+cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_3597a.vcxproj]
+c1 : fatal error C1083: 无法打开源文件: “WASM=0”: No such file or directory [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_3597a.vcxproj]
+  HAVE_STRINGS_H.c
+D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_STRINGS_H.c(2): fatal error C1083: 无法打开包括文件: “strings.h”: No such file or directory [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_3597a.vcxproj]
+  正在生成代码...
+
+Source:
+/* */
+#include <strings.h>
+
+
+int main(void){return 0;}
+
+Determining if files string.h exist failed with the following output:
+Change Dir: D:/sdk/libwebp-master/webp_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_135cf.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27043 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /W1 /WX- /diagnostics:classic /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_135cf.dir\Debug\\" /Fd"cmTC_135cf.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -s WASM=0 -g "D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_STRING_H.c"
+  WASM=0
+  
+cl : 命令行 warning D9002: 忽略未知选项“-s” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_135cf.vcxproj]
+cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_135cf.vcxproj]
+c1 : fatal error C1083: 无法打开源文件: “WASM=0”: No such file or directory [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_135cf.vcxproj]
+  HAVE_STRING_H.c
+  正在生成代码...
+
+Source:
+/* */
+#include <string.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/stat.h exist failed with the following output:
+Change Dir: D:/sdk/libwebp-master/webp_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_97982.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27043 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /W1 /WX- /diagnostics:classic /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_97982.dir\Debug\\" /Fd"cmTC_97982.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -s WASM=0 -g "D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_SYS_STAT_H.c"
+  WASM=0
+  
+cl : 命令行 warning D9002: 忽略未知选项“-s” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_97982.vcxproj]
+cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_97982.vcxproj]
+c1 : fatal error C1083: 无法打开源文件: “WASM=0”: No such file or directory [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_97982.vcxproj]
+  HAVE_SYS_STAT_H.c
+  正在生成代码...
+
+Source:
+/* */
+#include <sys/stat.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/types.h exist failed with the following output:
+Change Dir: D:/sdk/libwebp-master/webp_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_a57f1.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27043 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /W1 /WX- /diagnostics:classic /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a57f1.dir\Debug\\" /Fd"cmTC_a57f1.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -s WASM=0 -g "D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TYPES_H.c"
+  WASM=0
+  
+cl : 命令行 warning D9002: 忽略未知选项“-s” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_a57f1.vcxproj]
+cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_a57f1.vcxproj]
+c1 : fatal error C1083: 无法打开源文件: “WASM=0”: No such file or directory [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_a57f1.vcxproj]
+  HAVE_SYS_TYPES_H.c
+  正在生成代码...
+
+Source:
+/* */
+#include <sys/types.h>
+
+
+int main(void){return 0;}
+
+Determining if files unistd.h exist failed with the following output:
+Change Dir: D:/sdk/libwebp-master/webp_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_f52c1.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27043 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /W1 /WX- /diagnostics:classic /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f52c1.dir\Debug\\" /Fd"cmTC_f52c1.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -s WASM=0 -g "D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c"
+  WASM=0
+  
+cl : 命令行 warning D9002: 忽略未知选项“-s” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_f52c1.vcxproj]
+cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_f52c1.vcxproj]
+c1 : fatal error C1083: 无法打开源文件: “WASM=0”: No such file or directory [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_f52c1.vcxproj]
+  HAVE_UNISTD_H.c
+D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c(2): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_f52c1.vcxproj]
+  正在生成代码...
+
+Source:
+/* */
+#include <unistd.h>
+
+
+int main(void){return 0;}
+
+Determining if files wincodec.h exist failed with the following output:
+Change Dir: D:/sdk/libwebp-master/webp_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_fda2c.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27043 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /W1 /WX- /diagnostics:classic /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fda2c.dir\Debug\\" /Fd"cmTC_fda2c.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -s WASM=0 -g "D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_WINCODEC_H.c"
+  WASM=0
+  
+cl : 命令行 warning D9002: 忽略未知选项“-s” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_fda2c.vcxproj]
+cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_fda2c.vcxproj]
+c1 : fatal error C1083: 无法打开源文件: “WASM=0”: No such file or directory [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_fda2c.vcxproj]
+  HAVE_WINCODEC_H.c
+  正在生成代码...
+
+Source:
+/* */
+#include <wincodec.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h exist failed with the following output:
+Change Dir: D:/sdk/libwebp-master/webp_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_ece71.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27043 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /W1 /WX- /diagnostics:classic /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ece71.dir\Debug\\" /Fd"cmTC_ece71.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -s WASM=0 -g "D:\sdk\libwebp-master\webp_js\CMakeFiles\CheckIncludeFiles\HAVE_WINDOWS_H.c"
+  WASM=0
+  
+cl : 命令行 warning D9002: 忽略未知选项“-s” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_ece71.vcxproj]
+cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_ece71.vcxproj]
+c1 : fatal error C1083: 无法打开源文件: “WASM=0”: No such file or directory [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_ece71.vcxproj]
+  HAVE_WINDOWS_H.c
+  正在生成代码...
+
+Source:
+/* */
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test HAS_COMPILE_FLAG failed with the following output:
+Change Dir: D:/sdk/libwebp-master/webp_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_4b527.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27043 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /W1 /WX- /diagnostics:classic /O2 /Oy- /D HAS_COMPILE_FLAG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4b527.dir\Debug\\" /Fd"cmTC_4b527.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -msse4.1 -g -mno-sse4.1 "D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\src.c"
+  src.c
+  
+cl : 命令行 warning D9002: 忽略未知选项“-msse4.1” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_4b527.vcxproj]
+cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_4b527.vcxproj]
+cl : 命令行 warning D9002: 忽略未知选项“-mno-sse4.1” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_4b527.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/-default-obj-ext”；已忽略 [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_4b527.vcxproj]
+LINK : fatal error LNK1104: 无法打开文件“.obj” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_4b527.vcxproj]
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAS_COMPILE_FLAG failed with the following output:
+Change Dir: D:/sdk/libwebp-master/webp_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_9312f.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27043 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /W1 /WX- /diagnostics:classic /O2 /Oy- /D HAS_COMPILE_FLAG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9312f.dir\Debug\\" /Fd"cmTC_9312f.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -msse2 -g -mno-sse2 "D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\src.c"
+  src.c
+  
+cl : 命令行 warning D9002: 忽略未知选项“-msse2” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_9312f.vcxproj]
+cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_9312f.vcxproj]
+cl : 命令行 warning D9002: 忽略未知选项“-mno-sse2” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_9312f.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/-default-obj-ext”；已忽略 [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_9312f.vcxproj]
+LINK : fatal error LNK1104: 无法打开文件“.obj” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_9312f.vcxproj]
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAS_COMPILE_FLAG failed with the following output:
+Change Dir: D:/sdk/libwebp-master/webp_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_265a1.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27043 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /W1 /WX- /diagnostics:classic /O2 /Oy- /D HAS_COMPILE_FLAG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_265a1.dir\Debug\\" /Fd"cmTC_265a1.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -mdspr2 -g -mno-dspr2 "D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\src.c"
+  src.c
+  
+cl : 命令行 warning D9002: 忽略未知选项“-mdspr2” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_265a1.vcxproj]
+cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_265a1.vcxproj]
+cl : 命令行 warning D9002: 忽略未知选项“-mno-dspr2” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_265a1.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/-default-obj-ext”；已忽略 [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_265a1.vcxproj]
+LINK : fatal error LNK1104: 无法打开文件“.obj” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_265a1.vcxproj]
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAS_COMPILE_FLAG failed with the following output:
+Change Dir: D:/sdk/libwebp-master/webp_js/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_0532e.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27043 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /W1 /WX- /diagnostics:classic /O2 /Oy- /D HAS_COMPILE_FLAG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0532e.dir\Debug\\" /Fd"cmTC_0532e.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -mmsa -g -mno-msa "D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\src.c"
+  src.c
+  
+cl : 命令行 warning D9002: 忽略未知选项“-mmsa” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_0532e.vcxproj]
+cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_0532e.vcxproj]
+cl : 命令行 warning D9002: 忽略未知选项“-mno-msa” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_0532e.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/-default-obj-ext”；已忽略 [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_0532e.vcxproj]
+LINK : fatal error LNK1104: 无法打开文件“.obj” [D:\sdk\libwebp-master\webp_js\CMakeFiles\CMakeTmp\cmTC_0532e.vcxproj]
+
+Source file was:
+int main(void) { return 0; }
