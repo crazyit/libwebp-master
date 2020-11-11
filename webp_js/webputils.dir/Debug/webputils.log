@@ -1,0 +1,90 @@
+﻿  Building Custom Rule D:/sdk/libwebp-master/CMakeLists.txt
+  CMake does not need to re-run because D:/sdk/libwebp-master/webp_js/CMakeFiles/generate.stamp is up-to-date.
+cl : 命令行 warning D9002: 忽略未知选项“-g”
+  bit_reader_utils.c
+D:\sdk\libwebp-master\src/utils/bit_reader_utils.h(147): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“eos_”后
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+  color_cache_utils.c
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+  filters_utils.c
+  huffman_utils.c
+D:\sdk\libwebp-master\src/utils/huffman_utils.h(35): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“bits”后
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+D:\sdk\libwebp-master\src\utils\huffman_utils.c(125): warning C4242: “=”: 从“int”转换到“uint16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\utils\huffman_utils.c(145): warning C4245: “初始化”: 从“int”转换到“uint32_t”，有符号/无符号不匹配
+  quant_levels_dec_utils.c
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+D:\sdk\libwebp-master\src\utils\quant_levels_dec_utils.c(177): warning C4244: “=”: 从“int”转换到“int16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\utils\quant_levels_dec_utils.c(178): warning C4244: “=”: 从“int”转换到“int16_t”，可能丢失数据
+  rescaler_utils.c
+  random_utils.c
+  thread_utils.c
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+  utils.c
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+  bit_writer_utils.c
+D:\sdk\libwebp-master\src/utils/bit_writer_utils.h(135): warning C4127: 条件表达式是常量
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+D:\sdk\libwebp-master\src\utils\bit_writer_utils.c(71): warning C4242: “=”: 从“const int”转换到“uint8_t”，可能丢失数据
+  huffman_encode_utils.c
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+D:\sdk\libwebp-master\src\utils\huffman_encode_utils.c(142): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\utils\huffman_encode_utils.c(266): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\utils\huffman_encode_utils.c(275): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\utils\huffman_encode_utils.c(282): warning C4244: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\utils\huffman_encode_utils.c(308): warning C4244: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\utils\huffman_encode_utils.c(313): warning C4244: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\utils\huffman_encode_utils.c(399): warning C4242: “=”: 从“uint32_t”转换到“uint16_t”，可能丢失数据
+  quant_levels_utils.c
+  正在生成代码...
+d:\sdk\libwebp-master\src\utils\huffman_encode_utils.c(77): warning C4711: 为自动内联扩展选定了函数“ValuesShouldBeCollapsedToStrideAverage”
+d:\sdk\libwebp-master\src\utils\huffman_encode_utils.c(399): warning C4711: 为自动内联扩展选定了函数“ReverseBits”
+d:\sdk\libwebp-master\src\utils\huffman_encode_utils.c(341): warning C4711: 为自动内联扩展选定了函数“CodeRepeatedZeros”
+d:\sdk\libwebp-master\src\utils\huffman_encode_utils.c(343): warning C4711: 为自动内联扩展选定了函数“CodeRepeatedValues”
+d:\sdk\libwebp-master\src\utils\huffman_encode_utils.c(399): warning C4711: 为自动内联扩展选定了函数“ReverseBits”
+d:\sdk\libwebp-master\src\utils\huffman_encode_utils.c(416): warning C4711: 为自动内联扩展选定了函数“ConvertBitDepthsToSymbols”
+d:\sdk\libwebp-master\src\utils\bit_writer_utils.c(147): warning C4711: 为自动内联扩展选定了函数“VP8PutBitUniform”
+d:\sdk\libwebp-master\src\utils\bit_writer_utils.c(152): warning C4711: 为自动内联扩展选定了函数“VP8PutBitUniform”
+d:\sdk\libwebp-master\src\utils\utils.c(226): warning C4711: 为自动内联扩展选定了函数“WebPSafeFree”
+d:\sdk\libwebp-master\src\utils\utils.c(204): warning C4711: 为自动内联扩展选定了函数“CheckSizeArgumentsOverflow”
+d:\sdk\libwebp-master\src\utils\utils.c(194): warning C4711: 为自动内联扩展选定了函数“CheckSizeArgumentsOverflow”
+d:\sdk\libwebp-master\src\utils\utils.c(246): warning C4711: 为自动内联扩展选定了函数“WebPCopyPlane”
+d:\sdk\libwebp-master\src\utils\utils.c(194): warning C4711: 为自动内联扩展选定了函数“CheckSizeArgumentsOverflow”
+d:\sdk\libwebp-master\src\utils\utils.c(222): warning C4711: 为自动内联扩展选定了函数“WebPSafeMalloc”
+d:\sdk\libwebp-master\src\utils\thread_utils.c(326): warning C4711: 为自动内联扩展选定了函数“Execute”
+d:\sdk\libwebp-master\src\utils\thread_utils.c(310): warning C4711: 为自动内联扩展选定了函数“Sync”
+d:\sdk\libwebp-master\src\utils\quant_levels_dec_utils.c(249): warning C4711: 为自动内联扩展选定了函数“CountLevels”
+d:\sdk\libwebp-master\src\utils\quant_levels_dec_utils.c(253): warning C4711: 为自动内联扩展选定了函数“InitCorrectionLUT”
+d:\sdk\libwebp-master\src\utils\quant_levels_dec_utils.c(279): warning C4711: 为自动内联扩展选定了函数“VFilter”
+d:\sdk\libwebp-master\src\utils\quant_levels_dec_utils.c(283): warning C4711: 为自动内联扩展选定了函数“HFilter”
+d:\sdk\libwebp-master\src\utils\quant_levels_dec_utils.c(284): warning C4711: 为自动内联扩展选定了函数“ApplyFilter”
+d:\sdk\libwebp-master\src\utils\quant_levels_dec_utils.c(288): warning C4711: 为自动内联扩展选定了函数“CleanupParams”
+d:\sdk\libwebp-master\src\utils\bit_reader_utils.c(189): warning C4711: 为自动内联扩展选定了函数“VP8LSetEndOfStream”
+d:\sdk\libwebp-master\src\utils\bit_reader_utils.c(43): warning C4711: 为自动内联扩展选定了函数“VP8BitReaderSetBuffer”
+d:\sdk\libwebp-master\src\utils\bit_reader_utils.c(218): warning C4711: 为自动内联扩展选定了函数“VP8LSetEndOfStream”
+d:\sdk\libwebp-master\src\utils\bit_reader_inl_utils.h(102): warning C4711: 为自动内联扩展选定了函数“VP8LoadFinalBytes”
+  webputils.vcxproj -> D:\sdk\libwebp-master\webp_js\webputils.dir\Debug\webputils.lib

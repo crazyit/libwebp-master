@@ -1,0 +1,327 @@
+﻿  Building Custom Rule D:/sdk/libwebp-master/CMakeLists.txt
+  CMake does not need to re-run because D:/sdk/libwebp-master/webp_js/CMakeFiles/generate.stamp is up-to-date.
+cl : 命令行 warning D9002: 忽略未知选项“-g”
+  alpha_dec.c
+D:\sdk\libwebp-master\src/utils/bit_reader_utils.h(147): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“eos_”后
+D:\sdk\libwebp-master\src/utils/huffman_utils.h(35): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“bits”后
+D:\sdk\libwebp-master\src/dec/vp8li_dec.h(71): warning C4820: “VP8LDecoder”:“4”字节填充添加在 数据成员“incremental_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(74): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“show_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(107): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“bands_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(157): warning C4820: “<anonymous-tag>”:“2”字节填充添加在 数据成员“uvmode_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(162): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“segment_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(229): warning C4820: “VP8Decoder”:“3”字节填充添加在 数据成员“skip_p_”后
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+  buffer_dec.c
+D:\sdk\libwebp-master\src/utils/bit_reader_utils.h(147): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“eos_”后
+D:\sdk\libwebp-master\src/utils/huffman_utils.h(35): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“bits”后
+D:\sdk\libwebp-master\src/dec/vp8li_dec.h(71): warning C4820: “VP8LDecoder”:“4”字节填充添加在 数据成员“incremental_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(74): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“show_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(107): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“bands_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(157): warning C4820: “<anonymous-tag>”:“2”字节填充添加在 数据成员“uvmode_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(162): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“segment_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(229): warning C4820: “VP8Decoder”:“3”字节填充添加在 数据成员“skip_p_”后
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+  frame_dec.c
+D:\sdk\libwebp-master\src/utils/bit_reader_utils.h(147): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“eos_”后
+D:\sdk\libwebp-master\src/utils/huffman_utils.h(35): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“bits”后
+D:\sdk\libwebp-master\src/dec/vp8li_dec.h(71): warning C4820: “VP8LDecoder”:“4”字节填充添加在 数据成员“incremental_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(74): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“show_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(107): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“bands_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(157): warning C4820: “<anonymous-tag>”:“2”字节填充添加在 数据成员“uvmode_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(162): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“segment_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(229): warning C4820: “VP8Decoder”:“3”字节填充添加在 数据成员“skip_p_”后
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+D:\sdk\libwebp-master\src\dec\frame_dec.c(304): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\dec\frame_dec.c(305): warning C4244: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\dec\frame_dec.c(310): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\dec\frame_dec.c(366): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+  idec_dec.c
+D:\sdk\libwebp-master\src/utils/bit_reader_utils.h(147): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“eos_”后
+D:\sdk\libwebp-master\src/utils/huffman_utils.h(35): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“bits”后
+D:\sdk\libwebp-master\src/dec/vp8li_dec.h(71): warning C4820: “VP8LDecoder”:“4”字节填充添加在 数据成员“incremental_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(74): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“show_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(107): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“bands_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(157): warning C4820: “<anonymous-tag>”:“2”字节填充添加在 数据成员“uvmode_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(162): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“segment_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(229): warning C4820: “VP8Decoder”:“3”字节填充添加在 数据成员“skip_p_”后
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+  io_dec.c
+D:\sdk\libwebp-master\src/utils/bit_reader_utils.h(147): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“eos_”后
+D:\sdk\libwebp-master\src/utils/huffman_utils.h(35): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“bits”后
+D:\sdk\libwebp-master\src/dec/vp8li_dec.h(71): warning C4820: “VP8LDecoder”:“4”字节填充添加在 数据成员“incremental_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(74): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“show_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(107): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“bands_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(157): warning C4820: “<anonymous-tag>”:“2”字节填充添加在 数据成员“uvmode_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(162): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“segment_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(229): warning C4820: “VP8Decoder”:“3”字节填充添加在 数据成员“skip_p_”后
+D:\sdk\libwebp-master\src/dsp/yuv.h(81): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src/dsp/yuv.h(82): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src/dsp/yuv.h(83): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src/dsp/yuv.h(88): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src/dsp/yuv.h(89): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src/dsp/yuv.h(90): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src/dsp/yuv.h(104): warning C4242: “=”: 从“const int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src/dsp/yuv.h(105): warning C4242: “=”: 从“const int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src/dsp/yuv.h(120): warning C4242: “=”: 从“const int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src/dsp/yuv.h(121): warning C4242: “=”: 从“const int”转换到“uint8_t”，可能丢失数据
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+D:\sdk\libwebp-master\src\dec\io_dec.c(221): warning C4244: “=”: 从“const uint32_t”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\dec\io_dec.c(449): warning C4244: “=”: 从“const uint32_t”转换到“uint8_t”，可能丢失数据
+  quant_dec.c
+D:\sdk\libwebp-master\src/utils/bit_reader_utils.h(147): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“eos_”后
+D:\sdk\libwebp-master\src/utils/huffman_utils.h(35): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“bits”后
+D:\sdk\libwebp-master\src/dec/vp8li_dec.h(71): warning C4820: “VP8LDecoder”:“4”字节填充添加在 数据成员“incremental_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(74): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“show_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(107): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“bands_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(157): warning C4820: “<anonymous-tag>”:“2”字节填充添加在 数据成员“uvmode_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(162): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“segment_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(229): warning C4820: “VP8Decoder”:“3”字节填充添加在 数据成员“skip_p_”后
+  tree_dec.c
+D:\sdk\libwebp-master\src/utils/bit_reader_utils.h(147): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“eos_”后
+D:\sdk\libwebp-master\src/utils/huffman_utils.h(35): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“bits”后
+D:\sdk\libwebp-master\src/dec/vp8li_dec.h(71): warning C4820: “VP8LDecoder”:“4”字节填充添加在 数据成员“incremental_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(74): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“show_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(107): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“bands_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(157): warning C4820: “<anonymous-tag>”:“2”字节填充添加在 数据成员“uvmode_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(162): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“segment_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(229): warning C4820: “VP8Decoder”:“3”字节填充添加在 数据成员“skip_p_”后
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+D:\sdk\libwebp-master\src\dec\tree_dec.c(301): warning C4244: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\dec\tree_dec.c(305): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\dec\tree_dec.c(314): warning C4242: “=”: 从“const int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\dec\tree_dec.c(347): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\dec\tree_dec.c(351): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\dec\tree_dec.c(525): warning C4242: “=”: 从“const int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\dec\tree_dec.c(535): warning C4242: “=”: 从“uint32_t”转换到“uint8_t”，可能丢失数据
+  vp8_dec.c
+D:\sdk\libwebp-master\src/utils/bit_reader_utils.h(147): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“eos_”后
+D:\sdk\libwebp-master\src/utils/huffman_utils.h(35): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“bits”后
+D:\sdk\libwebp-master\src/dec/vp8li_dec.h(71): warning C4820: “VP8LDecoder”:“4”字节填充添加在 数据成员“incremental_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(74): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“show_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(107): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“bands_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(157): warning C4820: “<anonymous-tag>”:“2”字节填充添加在 数据成员“uvmode_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(162): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“segment_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(229): warning C4820: “VP8Decoder”:“3”字节填充添加在 数据成员“skip_p_”后
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+D:\sdk\libwebp-master\src\dec\vp8_dec.c(172): warning C4244: “=”: 从“int”转换到“int8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\dec\vp8_dec.c(176): warning C4244: “=”: 从“int”转换到“int8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\dec\vp8_dec.c(183): warning C4244: “=”: 从“uint32_t”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\dec\vp8_dec.c(358): warning C4242: “=”: 从“uint32_t”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\dec\vp8_dec.c(359): warning C4242: “=”: 从“uint32_t”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\dec\vp8_dec.c(461): warning C4244: “=”: 从“const int”转换到“int16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\dec\vp8_dec.c(491): warning C4244: “=”: 从“const int”转换到“int16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\dec\vp8_dec.c(537): warning C4242: “=”: 从“const int”转换到“int16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\dec\vp8_dec.c(555): warning C4244: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\dec\vp8_dec.c(560): warning C4244: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\dec\vp8_dec.c(576): warning C4244: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\dec\vp8_dec.c(581): warning C4244: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\dec\vp8_dec.c(588): warning C4242: “=”: 从“uint32_t”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\dec\vp8_dec.c(589): warning C4242: “=”: 从“uint32_t”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\dec\vp8_dec.c(597): warning C4244: “=”: 从“const int”转换到“uint8_t”，可能丢失数据
+  vp8l_dec.c
+D:\sdk\libwebp-master\src/utils/bit_reader_utils.h(147): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“eos_”后
+D:\sdk\libwebp-master\src/utils/huffman_utils.h(35): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“bits”后
+D:\sdk\libwebp-master\src/dec/vp8li_dec.h(71): warning C4820: “VP8LDecoder”:“4”字节填充添加在 数据成员“incremental_”后
+D:\sdk\libwebp-master\src/enc/backward_references_enc.h(42): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“mode”后
+D:\sdk\libwebp-master\src/enc/histogram_enc.h(43): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“trivial_symbol_”后
+D:\sdk\libwebp-master\src/enc/histogram_enc.h(48): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“is_used_”后
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+D:\sdk\libwebp-master\src/dsp/yuv.h(81): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src/dsp/yuv.h(82): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src/dsp/yuv.h(83): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src/dsp/yuv.h(88): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src/dsp/yuv.h(89): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src/dsp/yuv.h(90): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src/dsp/yuv.h(104): warning C4242: “=”: 从“const int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src/dsp/yuv.h(105): warning C4242: “=”: 从“const int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src/dsp/yuv.h(120): warning C4242: “=”: 从“const int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src/dsp/yuv.h(121): warning C4242: “=”: 从“const int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\dec\vp8l_dec.c(1032): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+  webp_dec.c
+D:\sdk\libwebp-master\src/utils/bit_reader_utils.h(147): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“eos_”后
+D:\sdk\libwebp-master\src/utils/huffman_utils.h(35): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“bits”后
+D:\sdk\libwebp-master\src/dec/vp8li_dec.h(71): warning C4820: “VP8LDecoder”:“4”字节填充添加在 数据成员“incremental_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(74): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“show_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(107): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“bands_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(157): warning C4820: “<anonymous-tag>”:“2”字节填充添加在 数据成员“uvmode_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(162): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“segment_”后
+D:\sdk\libwebp-master\src/dec/vp8i_dec.h(229): warning C4820: “VP8Decoder”:“3”字节填充添加在 数据成员“skip_p_”后
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+  正在生成代码...
+d:\sdk\libwebp-master\src\dec\webp_dec.c(728): warning C4711: 为自动内联扩展选定了函数“DefaultFeatures”
+d:\sdk\libwebp-master\src\dec\webp_dec.c(305): warning C4711: 为自动内联扩展选定了函数“ParseRIFF”
+d:\sdk\libwebp-master\src\dec\webp_dec.c(314): warning C4711: 为自动内联扩展选定了函数“ParseVP8X”
+d:\sdk\libwebp-master\src\dec\webp_dec.c(345): warning C4711: 为自动内联扩展选定了函数“ParseOptionalChunks”
+d:\sdk\libwebp-master\src\dec\webp_dec.c(353): warning C4711: 为自动内联扩展选定了函数“ParseVP8Header”
+d:\sdk\libwebp-master\src\dec\webp_dec.c(686): warning C4711: 为自动内联扩展选定了函数“DefaultFeatures”
+d:\sdk\libwebp-master\src\dec\webp_dec.c(686): warning C4711: 为自动内联扩展选定了函数“DefaultFeatures”
+d:\sdk\libwebp-master\src\dec\webp_dec.c(702): warning C4711: 为自动内联扩展选定了函数“GetFeatures”
+d:\sdk\libwebp-master\src\dec\webp_dec.c(456): warning C4711: 为自动内联扩展选定了函数“WebPParseHeaders”
+d:\sdk\libwebp-master\src\dec\webp_dec.c(537): warning C4711: 为自动内联扩展选定了函数“WebPResetDecParams”
+d:\sdk\libwebp-master\src\dec\webp_dec.c(583): warning C4711: 为自动内联扩展选定了函数“WebPResetDecParams”
+d:\sdk\libwebp-master\src\dec\webp_dec.c(686): warning C4711: 为自动内联扩展选定了函数“DefaultFeatures”
+d:\sdk\libwebp-master\src\dec\webp_dec.c(754): warning C4711: 为自动内联扩展选定了函数“GetFeatures”
+d:\sdk\libwebp-master\src\dec\webp_dec.c(762): warning C4711: 为自动内联扩展选定了函数“WebPResetDecParams”
+d:\sdk\libwebp-master\src\dec\webp_dec.c(611): warning C4711: 为自动内联扩展选定了函数“WebPResetDecParams”
+d:\sdk\libwebp-master\src\dec\webp_dec.c(686): warning C4711: 为自动内联扩展选定了函数“DefaultFeatures”
+d:\sdk\libwebp-master\src\dec\webp_dec.c(702): warning C4711: 为自动内联扩展选定了函数“GetFeatures”
+d:\sdk\libwebp-master\src\dec\webp_dec.c(616): warning C4711: 为自动内联扩展选定了函数“WebPGetInfo”
+d:\sdk\libwebp-master\src\dec\vp8l_dec.c(132): warning C4711: 为自动内联扩展选定了函数“VP8LCheckSignature”
+d:\sdk\libwebp-master\src\dec\vp8l_dec.c(239): warning C4711: 为自动内联扩展选定了函数“AccumulateHCode”
+d:\sdk\libwebp-master\src\dec\vp8l_dec.c(240): warning C4711: 为自动内联扩展选定了函数“AccumulateHCode”
+d:\sdk\libwebp-master\src\dec\vp8l_dec.c(241): warning C4711: 为自动内联扩展选定了函数“AccumulateHCode”
+d:\sdk\libwebp-master\src\dec\vp8l_dec.c(242): warning C4711: 为自动内联扩展选定了函数“AccumulateHCode”
+d:\sdk\libwebp-master\src\dec\vp8l_dec.c(699): warning C4711: 为自动内联扩展选定了函数“ConvertToYUVA”
+d:\sdk\libwebp-master\src\dec\vp8l_dec.c(1360): warning C4711: 为自动内联扩展选定了函数“InitMetadata”
+d:\sdk\libwebp-master\src\dec\vp8l_dec.c(668): warning C4711: 为自动内联扩展选定了函数“ConvertToYUVA”
+d:\sdk\libwebp-master\src\dec\vp8l_dec.c(1331): warning C4711: 为自动内联扩展选定了函数“ExpandColorMap”
+d:\sdk\libwebp-master\src\dec\vp8l_dec.c(1385): warning C4711: 为自动内联扩展选定了函数“ClearTransform”
+d:\sdk\libwebp-master\src\dec\vp8l_dec.c(609): warning C4711: 为自动内联扩展选定了函数“Export”
+d:\sdk\libwebp-master\src\dec\vp8l_dec.c(668): warning C4711: 为自动内联扩展选定了函数“ConvertToYUVA”
+d:\sdk\libwebp-master\src\dec\vp8l_dec.c(689): warning C4711: 为自动内联扩展选定了函数“ExportYUVA”
+d:\sdk\libwebp-master\src\dec\vp8l_dec.c(1134): warning C4711: 为自动内联扩展选定了函数“SaveState”
+d:\sdk\libwebp-master\src\dec\vp8l_dec.c(1236): warning C4711: 为自动内联扩展选定了函数“RestoreState”
+d:\sdk\libwebp-master\src\dec\vp8l_dec.c(793): warning C4711: 为自动内联扩展选定了函数“SetCropWindow”
+d:\sdk\libwebp-master\src\dec\vp8l_dec.c(609): warning C4711: 为自动内联扩展选定了函数“Export”
+d:\sdk\libwebp-master\src\dec\vp8l_dec.c(800): warning C4711: 为自动内联扩展选定了函数“EmitRescaledRowsRGBA”
+d:\sdk\libwebp-master\src\dec\vp8l_dec.c(800): warning C4711: 为自动内联扩展选定了函数“EmitRows”
+d:\sdk\libwebp-master\src\dec\vp8l_dec.c(668): warning C4711: 为自动内联扩展选定了函数“ConvertToYUVA”
+d:\sdk\libwebp-master\src\dec\vp8l_dec.c(689): warning C4711: 为自动内联扩展选定了函数“ExportYUVA”
+d:\sdk\libwebp-master\src\dec\vp8l_dec.c(811): warning C4711: 为自动内联扩展选定了函数“EmitRescaledRowsYUVA”
+d:\sdk\libwebp-master\src\dec\vp8l_dec.c(699): warning C4711: 为自动内联扩展选定了函数“ConvertToYUVA”
+d:\sdk\libwebp-master\src\dec\vp8l_dec.c(811): warning C4711: 为自动内联扩展选定了函数“EmitRowsYUVA”
+d:\sdk\libwebp-master\src\dec\vp8l_dec.c(171): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解
+  d:\sdk\libwebp-master\src\dec\vp8l_dec.c(168) : 注意: 在此行上通过对比检查索引 "dist_code" 范围
+  d:\sdk\libwebp-master\src\dec\vp8l_dec.c(959) : 注意: 此行上的源内存负载
+d:\sdk\libwebp-master\src\dec\vp8l_dec.c(171): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解
+  d:\sdk\libwebp-master\src\dec\vp8l_dec.c(168) : 注意: 在此行上通过对比检查索引 "dist_code" 范围
+  d:\sdk\libwebp-master\src\dec\vp8l_dec.c(998) : 注意: 此行上的源内存负载
+d:\sdk\libwebp-master\src\dec\vp8l_dec.c(1694): warning C4711: 为自动内联扩展选定了函数“AllocateAndInitRescaler”
+d:\sdk\libwebp-master\src\dec\vp8l_dec.c(1461): warning C4711: 为自动内联扩展选定了函数“UpdateDecoder”
+d:\sdk\libwebp-master\src\dec\vp8l_dec.c(1570): warning C4711: 为自动内联扩展选定了函数“VP8LNew”
+d:\sdk\libwebp-master\src\dec\vp8l_dec.c(1597): warning C4711: 为自动内联扩展选定了函数“AllocateInternalBuffers8b”
+d:\sdk\libwebp-master\src\dec\vp8l_dec.c(1611): warning C4711: 为自动内联扩展选定了函数“VP8LDelete”
+d:\sdk\libwebp-master\src\dec\vp8_dec.c(111): warning C4711: 为自动内联扩展选定了函数“VP8CheckSignature”
+d:\sdk\libwebp-master\src\dec\vp8_dec.c(270): warning C4711: 为自动内联扩展选定了函数“SetOk”
+d:\sdk\libwebp-master\src\dec\vp8_dec.c(272): warning C4711: 为自动内联扩展选定了函数“VP8SetError”
+d:\sdk\libwebp-master\src\dec\vp8_dec.c(278): warning C4711: 为自动内联扩展选定了函数“VP8SetError”
+d:\sdk\libwebp-master\src\dec\vp8_dec.c(291): warning C4711: 为自动内联扩展选定了函数“VP8SetError”
+d:\sdk\libwebp-master\src\dec\vp8_dec.c(342): warning C4711: 为自动内联扩展选定了函数“ResetSegmentHeader”
+d:\sdk\libwebp-master\src\dec\vp8_dec.c(361): warning C4711: 为自动内联扩展选定了函数“ParseSegmentHeader”
+d:\sdk\libwebp-master\src\dec\vp8_dec.c(366): warning C4711: 为自动内联扩展选定了函数“ParseFilterHeader”
+d:\sdk\libwebp-master\src\dec\vp8_dec.c(370): warning C4711: 为自动内联扩展选定了函数“ParsePartitions”
+d:\sdk\libwebp-master\src\dec\vp8_dec.c(646): warning C4711: 为自动内联扩展选定了函数“VP8SetError”
+d:\sdk\libwebp-master\src\dec\vp8_dec.c(650): warning C4711: 为自动内联扩展选定了函数“VP8DecodeMB”
+d:\sdk\libwebp-master\src\dec\vp8_dec.c(651): warning C4711: 为自动内联扩展选定了函数“VP8SetError”
+d:\sdk\libwebp-master\src\dec\vp8_dec.c(655): warning C4711: 为自动内联扩展选定了函数“VP8InitScanline”
+d:\sdk\libwebp-master\src\dec\vp8_dec.c(659): warning C4711: 为自动内联扩展选定了函数“VP8SetError”
+d:\sdk\libwebp-master\src\dec\vp8_dec.c(676): warning C4711: 为自动内联扩展选定了函数“VP8SetError”
+d:\sdk\libwebp-master\src\dec\vp8_dec.c(497): warning C4711: 为自动内联扩展选定了函数“InitGetCoeffs_body”
+d:\sdk\libwebp-master\src\dec\vp8_dec.c(60): warning C4711: 为自动内联扩展选定了函数“SetOk”
+d:\sdk\libwebp-master\src\dec\vp8_dec.c(497): warning C4711: 为自动内联扩展选定了函数“InitGetCoeffs_body”
+d:\sdk\libwebp-master\src\dec\vp8_dec.c(64): warning C4711: 为自动内联扩展选定了函数“InitGetCoeffs”
+d:\sdk\libwebp-master\src\dec\io_dec.c(184): warning C4711: 为自动内联扩展选定了函数“GetAlphaSourceRow”
+d:\sdk\libwebp-master\src\dec\io_dec.c(208): warning C4711: 为自动内联扩展选定了函数“GetAlphaSourceRow”
+d:\sdk\libwebp-master\src\dec\io_dec.c(394): warning C4711: 为自动内联扩展选定了函数“ExportRGB”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(684): warning C4711: 为自动内联扩展选定了函数“ClearMemBuffer”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(616): warning C4711: 为自动内联扩展选定了函数“InitMemBuffer”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(358): warning C4711: 为自动内联扩展选定了函数“IDecError”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(140): warning C4711: 为自动内联扩展选定了函数“NeedCompressedAlpha”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(517): warning C4711: 为自动内联扩展选定了函数“IDecError”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(458): warning C4711: 为自动内联扩展选定了函数“IDecError”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(466): warning C4711: 为自动内联扩展选定了函数“IDecError”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(474): warning C4711: 为自动内联扩展选定了函数“SaveContext”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(479): warning C4711: 为自动内联扩展选定了函数“IDecError”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(484): warning C4711: 为自动内联扩展选定了函数“IDecError”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(487): warning C4711: 为自动内联扩展选定了函数“RestoreContext”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(500): warning C4711: 为自动内联扩展选定了函数“IDecError”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(506): warning C4711: 为自动内联扩展选定了函数“IDecError”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(841): warning C4711: 为自动内联扩展选定了函数“GetOutputBuffer”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(856): warning C4711: 为自动内联扩展选定了函数“GetOutputBuffer”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(874): warning C4711: 为自动内联扩展选定了函数“GetOutputBuffer”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(322): warning C4711: 为自动内联扩展选定了函数“IDecError”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(424): warning C4711: 为自动内联扩展选定了函数“IDecError”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(431): warning C4711: 为自动内联扩展选定了函数“CopyParts0Data”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(517): warning C4711: 为自动内联扩展选定了函数“IDecError”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(531): warning C4711: 为自动内联扩展选定了函数“ErrorStatusLossless”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(517): warning C4711: 为自动内联扩展选定了函数“IDecError”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(539): warning C4711: 为自动内联扩展选定了函数“ErrorStatusLossless”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(545): warning C4711: 为自动内联扩展选定了函数“IDecError”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(517): warning C4711: 为自动内联扩展选定了函数“IDecError”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(561): warning C4711: 为自动内联扩展选定了函数“ErrorStatusLossless”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(168): warning C4711: 为自动内联扩展选定了函数“NeedCompressedAlpha”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(706): warning C4711: 为自动内联扩展选定了函数“WebPINewDecoder”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(739): warning C4711: 为自动内联扩展选定了函数“WebPINewDecoder”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(322): warning C4711: 为自动内联扩展选定了函数“IDecError”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(573): warning C4711: 为自动内联扩展选定了函数“DecodeWebPHeaders”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(358): warning C4711: 为自动内联扩展选定了函数“IDecError”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(580): warning C4711: 为自动内联扩展选定了函数“DecodeVP8FrameHeader”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(517): warning C4711: 为自动内联扩展选定了函数“IDecError”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(531): warning C4711: 为自动内联扩展选定了函数“ErrorStatusLossless”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(517): warning C4711: 为自动内联扩展选定了函数“IDecError”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(539): warning C4711: 为自动内联扩展选定了函数“ErrorStatusLossless”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(545): warning C4711: 为自动内联扩展选定了函数“IDecError”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(593): warning C4711: 为自动内联扩展选定了函数“DecodeVP8LHeader”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(517): warning C4711: 为自动内联扩展选定了函数“IDecError”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(561): warning C4711: 为自动内联扩展选定了函数“ErrorStatusLossless”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(596): warning C4711: 为自动内联扩展选定了函数“DecodeVP8LData”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(739): warning C4711: 为自动内联扩展选定了函数“WebPINewDecoder”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(762): warning C4711: 为自动内联扩展选定了函数“WebPINewYUVA”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(787): warning C4711: 为自动内联扩展选定了函数“IDecCheckStatus”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(792): warning C4711: 为自动内联扩展选定了函数“CheckMemBufferMode”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(808): warning C4711: 为自动内联扩展选定了函数“IDecCheckStatus”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(813): warning C4711: 为自动内联扩展选定了函数“CheckMemBufferMode”
+d:\sdk\libwebp-master\src\dec\idec_dec.c(817): warning C4711: 为自动内联扩展选定了函数“RemapMemBuffer”
+d:\sdk\libwebp-master\src\dec\frame_dec.c(109): warning C4711: 为自动内联扩展选定了函数“Copy32b”
+d:\sdk\libwebp-master\src\dec\frame_dec.c(112): warning C4711: 为自动内联扩展选定了函数“Copy32b”
+d:\sdk\libwebp-master\src\dec\frame_dec.c(113): warning C4711: 为自动内联扩展选定了函数“Copy32b”
+d:\sdk\libwebp-master\src\dec\frame_dec.c(150): warning C4711: 为自动内联扩展选定了函数“CheckMode”
+d:\sdk\libwebp-master\src\dec\frame_dec.c(161): warning C4711: 为自动内联扩展选定了函数“CheckMode”
+d:\sdk\libwebp-master\src\dec\frame_dec.c(164): warning C4711: 为自动内联扩展选定了函数“DoUVTransform”
+d:\sdk\libwebp-master\src\dec\frame_dec.c(165): warning C4711: 为自动内联扩展选定了函数“DoUVTransform”
+d:\sdk\libwebp-master\src\dec\frame_dec.c(258): warning C4711: 为自动内联扩展选定了函数“DoFilter”
+d:\sdk\libwebp-master\src\dec\frame_dec.c(597): warning C4711: 为自动内联扩展选定了函数“PrecomputeFilterStrengths”
+d:\sdk\libwebp-master\src\dec\frame_dec.c(382): warning C4711: 为自动内联扩展选定了函数“Dither8x8”
+d:\sdk\libwebp-master\src\dec\frame_dec.c(429): warning C4711: 为自动内联扩展选定了函数“DitherRow”
+d:\sdk\libwebp-master\src\dec\frame_dec.c(796): warning C4711: 为自动内联扩展选定了函数“InitThreadContext”
+d:\sdk\libwebp-master\src\dec\frame_dec.c(798): warning C4711: 为自动内联扩展选定了函数“InitIo”
+d:\sdk\libwebp-master\src\dec\buffer_dec.c(46): warning C4711: 为自动内联扩展选定了函数“IsValidColorspace”
+d:\sdk\libwebp-master\src\dec\buffer_dec.c(92): warning C4711: 为自动内联扩展选定了函数“IsValidColorspace”
+d:\sdk\libwebp-master\src\dec\buffer_dec.c(92): warning C4711: 为自动内联扩展选定了函数“IsValidColorspace”
+d:\sdk\libwebp-master\src\dec\buffer_dec.c(218): warning C4711: 为自动内联扩展选定了函数“AllocateBuffer”
+d:\sdk\libwebp-master\src\dec\buffer_dec.c(223): warning C4711: 为自动内联扩展选定了函数“WebPFlipBuffer”
+d:\sdk\libwebp-master\src\dec\alpha_dec.c(170): warning C4711: 为自动内联扩展选定了函数“ALPHDelete”
+d:\sdk\libwebp-master\src\dec\alpha_dec.c(191): warning C4711: 为自动内联扩展选定了函数“ALPHNew”
+d:\sdk\libwebp-master\src\dec\alpha_dec.c(193): warning C4711: 为自动内联扩展选定了函数“AllocateAlphaPlane”
+d:\sdk\libwebp-master\src\dec\alpha_dec.c(194): warning C4711: 为自动内联扩展选定了函数“ALPHInit”
+d:\sdk\libwebp-master\src\dec\alpha_dec.c(208): warning C4711: 为自动内联扩展选定了函数“ALPHDecode”
+d:\sdk\libwebp-master\src\dec\alpha_dec.c(170): warning C4711: 为自动内联扩展选定了函数“ALPHDelete”
+d:\sdk\libwebp-master\src\dec\alpha_dec.c(230): warning C4711: 为自动内联扩展选定了函数“WebPDeallocateAlphaMemory”
+  webpdecode.vcxproj -> D:\sdk\libwebp-master\webp_js\webpdecode.dir\Debug\webpdecode.lib

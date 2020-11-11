@@ -1,0 +1,897 @@
+﻿  Building Custom Rule D:/sdk/libwebp-master/CMakeLists.txt
+  CMake does not need to re-run because D:/sdk/libwebp-master/webp_js/CMakeFiles/generate.stamp is up-to-date.
+cl : 命令行 warning D9002: 忽略未知选项“-g”
+  alpha_enc.c
+D:\sdk\libwebp-master\src/utils/bit_writer_utils.h(135): warning C4127: 条件表达式是常量
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(179): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“alpha_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(204): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“lambda_trellis_uv_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(222): warning C4820: “<anonymous-tag>”:“6”字节填充添加在 数据成员“derr”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(238): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“i4_boundary_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(242): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“left_nz_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(265): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“yuv_mem_”后
+D:\sdk\libwebp-master\src/enc/backward_references_enc.h(42): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“mode”后
+D:\sdk\libwebp-master\src/enc/histogram_enc.h(43): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“trivial_symbol_”后
+D:\sdk\libwebp-master\src/enc/histogram_enc.h(48): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“is_used_”后
+D:\sdk\libwebp-master\src\enc\alpha_enc.c(162): warning C4244: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+  analysis_enc.c
+D:\sdk\libwebp-master\src/utils/bit_writer_utils.h(135): warning C4127: 条件表达式是常量
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(179): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“alpha_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(204): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“lambda_trellis_uv_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(222): warning C4820: “<anonymous-tag>”:“6”字节填充添加在 数据成员“derr”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(238): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“i4_boundary_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(242): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“left_nz_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(265): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“yuv_mem_”后
+D:\sdk\libwebp-master\src\enc\analysis_enc.c(57): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\analysis_enc.c(207): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\analysis_enc.c(328): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\analysis_enc.c(374): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“delta_progress”后
+  backward_references_cost_enc.c
+D:\sdk\libwebp-master\src/enc/backward_references_enc.h(42): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“mode”后
+D:\sdk\libwebp-master\src/enc/histogram_enc.h(43): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“trivial_symbol_”后
+D:\sdk\libwebp-master\src/enc/histogram_enc.h(48): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“is_used_”后
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+D:\sdk\libwebp-master\src\enc\backward_references_cost_enc.c(38): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“literal_”后
+D:\sdk\libwebp-master\src\enc\backward_references_cost_enc.c(328): warning C4244: “=”: 从“int”转换到“uint16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\backward_references_cost_enc.c(481): warning C4244: “=”: 从“int”转换到“uint16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\backward_references_cost_enc.c(698): warning C4242: “=”: 从“const int”转换到“uint16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\backward_references_cost_enc.c(727): warning C4242: “函数”: 从“const int”转换到“uint16_t”，可能丢失数据
+  backward_references_enc.c
+D:\sdk\libwebp-master\src/enc/backward_references_enc.h(42): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“mode”后
+D:\sdk\libwebp-master\src/enc/histogram_enc.h(43): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“trivial_symbol_”后
+D:\sdk\libwebp-master\src/enc/histogram_enc.h(48): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“is_used_”后
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+D:\sdk\libwebp-master\src\enc\backward_references_enc.c(463): warning C4242: “函数”: 从“const int”转换到“uint16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\backward_references_enc.c(469): warning C4242: “函数”: 从“const int”转换到“uint16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\backward_references_enc.c(539): warning C4242: “函数”: 从“int”转换到“uint16_t”，可能丢失数据
+  config_enc.c
+  cost_enc.c
+D:\sdk\libwebp-master\src/utils/bit_writer_utils.h(135): warning C4127: 条件表达式是常量
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(179): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“alpha_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(204): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“lambda_trellis_uv_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(222): warning C4820: “<anonymous-tag>”:“6”字节填充添加在 数据成员“derr”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(238): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“i4_boundary_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(242): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“left_nz_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(265): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“yuv_mem_”后
+D:\sdk\libwebp-master\src\enc\cost_enc.c(74): warning C4244: “=”: 从“const int”转换到“uint16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\cost_enc.c(76): warning C4244: “=”: 从“int”转换到“uint16_t”，可能丢失数据
+  filter_enc.c
+D:\sdk\libwebp-master\src/utils/bit_writer_utils.h(135): warning C4127: 条件表达式是常量
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(179): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“alpha_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(204): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“lambda_trellis_uv_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(222): warning C4820: “<anonymous-tag>”:“6”字节填充添加在 数据成员“derr”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(238): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“i4_boundary_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(242): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“left_nz_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(265): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“yuv_mem_”后
+  frame_enc.c
+D:\sdk\libwebp-master\src/utils/bit_writer_utils.h(135): warning C4127: 条件表达式是常量
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(179): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“alpha_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(204): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“lambda_trellis_uv_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(222): warning C4820: “<anonymous-tag>”:“6”字节填充添加在 数据成员“derr”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(238): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“i4_boundary_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(242): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“left_nz_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(265): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“yuv_mem_”后
+D:\sdk\libwebp-master\src\enc\frame_enc.c(46): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“do_size_search”后
+D:\sdk\libwebp-master\src\enc\frame_enc.c(118): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\frame_enc.c(138): warning C4242: “函数”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\frame_enc.c(161): warning C4242: “函数”: 从“const int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\frame_enc.c(163): warning C4242: “函数”: 从“const int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\frame_enc.c(166): warning C4242: “函数”: 从“const int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\frame_enc.c(168): warning C4242: “=”: 从“const int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\frame_enc.c(172): warning C4242: “=”: 从“const int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\frame_enc.c(215): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\frame_enc.c(216): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\frame_enc.c(217): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\frame_enc.c(506): warning C4242: “=”: 从“const unsigned int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\frame_enc.c(507): warning C4242: “=”: 从“const unsigned int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\frame_enc.c(508): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\frame_enc.c(510): warning C4242: “=”: 从“const unsigned int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\frame_enc.c(513): warning C4244: “=”: 从“const int”转换到“uint8_t”，可能丢失数据
+  histogram_enc.c
+D:\sdk\libwebp-master\src/enc/backward_references_enc.h(42): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“mode”后
+D:\sdk\libwebp-master\src/enc/histogram_enc.h(43): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“trivial_symbol_”后
+D:\sdk\libwebp-master\src/enc/histogram_enc.h(48): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“is_used_”后
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+D:\sdk\libwebp-master\src\enc\histogram_enc.c(609): warning C4244: “=”: 从“int”转换到“uint16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\histogram_enc.c(638): warning C4242: “=”: 从“int”转换到“uint16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\histogram_enc.c(668): warning C4242: “=”: 从“int”转换到“uint16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\histogram_enc.c(675): warning C4242: “=”: 从“int”转换到“int16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\histogram_enc.c(1075): warning C4242: “=”: 从“int”转换到“uint16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\histogram_enc.c(1129): warning C4242: “=”: 从“int”转换到“uint16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\histogram_enc.c(1146): warning C4242: “=”: 从“int”转换到“uint16_t”，可能丢失数据
+  iterator_enc.c
+D:\sdk\libwebp-master\src/utils/bit_writer_utils.h(135): warning C4127: 条件表达式是常量
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(179): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“alpha_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(204): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“lambda_trellis_uv_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(222): warning C4820: “<anonymous-tag>”:“6”字节填充添加在 数据成员“derr”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(238): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“i4_boundary_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(242): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“left_nz_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(265): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“yuv_mem_”后
+  near_lossless_enc.c
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+D:\sdk\libwebp-master\src/enc/backward_references_enc.h(42): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“mode”后
+D:\sdk\libwebp-master\src/enc/histogram_enc.h(43): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“trivial_symbol_”后
+D:\sdk\libwebp-master\src/enc/histogram_enc.h(48): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“is_used_”后
+D:\sdk\libwebp-master\src/utils/bit_writer_utils.h(135): warning C4127: 条件表达式是常量
+  picture_enc.c
+D:\sdk\libwebp-master\src/utils/bit_writer_utils.h(135): warning C4127: 条件表达式是常量
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(179): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“alpha_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(204): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“lambda_trellis_uv_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(222): warning C4820: “<anonymous-tag>”:“6”字节填充添加在 数据成员“derr”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(238): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“i4_boundary_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(242): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“left_nz_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(265): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“yuv_mem_”后
+  picture_csp_enc.c
+D:\sdk\libwebp-master\src/utils/bit_writer_utils.h(135): warning C4127: 条件表达式是常量
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(179): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“alpha_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(204): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“lambda_trellis_uv_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(222): warning C4820: “<anonymous-tag>”:“6”字节填充添加在 数据成员“derr”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(238): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“i4_boundary_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(242): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“left_nz_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(265): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“yuv_mem_”后
+D:\sdk\libwebp-master\src/enc/backward_references_enc.h(42): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“mode”后
+D:\sdk\libwebp-master\src/enc/histogram_enc.h(43): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“trivial_symbol_”后
+D:\sdk\libwebp-master\src/enc/histogram_enc.h(48): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“is_used_”后
+D:\sdk\libwebp-master\src/dsp/yuv.h(81): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src/dsp/yuv.h(82): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src/dsp/yuv.h(83): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src/dsp/yuv.h(88): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src/dsp/yuv.h(89): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src/dsp/yuv.h(90): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src/dsp/yuv.h(104): warning C4242: “=”: 从“const int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src/dsp/yuv.h(105): warning C4242: “=”: 从“const int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src/dsp/yuv.h(120): warning C4242: “=”: 从“const int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src/dsp/yuv.h(121): warning C4242: “=”: 从“const int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\picture_csp_enc.c(314): warning C4242: “=”: 从“int”转换到“fixed_y_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\picture_csp_enc.c(455): warning C4245: “初始化”: 从“int”转换到“uint64_t”，有符号/无符号不匹配
+D:\sdk\libwebp-master\src\enc\picture_csp_enc.c(763): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\picture_csp_enc.c(787): warning C4242: “=”: 从“int”转换到“uint16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\picture_csp_enc.c(788): warning C4242: “=”: 从“int”转换到“uint16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\picture_csp_enc.c(789): warning C4242: “=”: 从“int”转换到“uint16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\picture_csp_enc.c(790): warning C4242: “=”: 从“const uint32_t”转换到“uint16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\picture_csp_enc.c(804): warning C4242: “=”: 从“int”转换到“uint16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\picture_csp_enc.c(805): warning C4242: “=”: 从“int”转换到“uint16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\picture_csp_enc.c(806): warning C4242: “=”: 从“int”转换到“uint16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\picture_csp_enc.c(807): warning C4242: “=”: 从“const uint32_t”转换到“uint16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\picture_csp_enc.c(818): warning C4242: “=”: 从“int”转换到“uint16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\picture_csp_enc.c(819): warning C4242: “=”: 从“int”转换到“uint16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\picture_csp_enc.c(820): warning C4242: “=”: 从“int”转换到“uint16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\picture_csp_enc.c(823): warning C4242: “=”: 从“int”转换到“uint16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\picture_csp_enc.c(824): warning C4242: “=”: 从“int”转换到“uint16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\picture_csp_enc.c(825): warning C4242: “=”: 从“int”转换到“uint16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\picture_csp_enc.c(837): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\picture_csp_enc.c(838): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+  picture_psnr_enc.c
+D:\sdk\libwebp-master\src/utils/bit_writer_utils.h(135): warning C4127: 条件表达式是常量
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(179): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“alpha_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(204): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“lambda_trellis_uv_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(222): warning C4820: “<anonymous-tag>”:“6”字节填充添加在 数据成员“derr”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(238): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“i4_boundary_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(242): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“left_nz_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(265): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“yuv_mem_”后
+  picture_rescale_enc.c
+D:\sdk\libwebp-master\src/utils/bit_writer_utils.h(135): warning C4127: 条件表达式是常量
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(179): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“alpha_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(204): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“lambda_trellis_uv_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(222): warning C4820: “<anonymous-tag>”:“6”字节填充添加在 数据成员“derr”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(238): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“i4_boundary_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(242): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“left_nz_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(265): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“yuv_mem_”后
+  picture_tools_enc.c
+D:\sdk\libwebp-master\src/utils/bit_writer_utils.h(135): warning C4127: 条件表达式是常量
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(179): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“alpha_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(204): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“lambda_trellis_uv_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(222): warning C4820: “<anonymous-tag>”:“6”字节填充添加在 数据成员“derr”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(238): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“i4_boundary_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(242): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“left_nz_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(265): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“yuv_mem_”后
+D:\sdk\libwebp-master\src/dsp/yuv.h(81): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src/dsp/yuv.h(82): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src/dsp/yuv.h(83): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src/dsp/yuv.h(88): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src/dsp/yuv.h(89): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src/dsp/yuv.h(90): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src/dsp/yuv.h(104): warning C4242: “=”: 从“const int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src/dsp/yuv.h(105): warning C4242: “=”: 从“const int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src/dsp/yuv.h(120): warning C4242: “=”: 从“const int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src/dsp/yuv.h(121): warning C4242: “=”: 从“const int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\picture_tools_enc.c(216): warning C4244: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\picture_tools_enc.c(229): warning C4244: “=”: 从“const uint32_t”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\picture_tools_enc.c(230): warning C4244: “=”: 从“const uint32_t”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\picture_tools_enc.c(234): warning C4244: “=”: 从“const uint32_t”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\picture_tools_enc.c(235): warning C4244: “=”: 从“const uint32_t”转换到“uint8_t”，可能丢失数据
+  predictor_enc.c
+D:\sdk\libwebp-master\src/enc/backward_references_enc.h(42): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“mode”后
+D:\sdk\libwebp-master\src/enc/histogram_enc.h(43): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“trivial_symbol_”后
+D:\sdk\libwebp-master\src/enc/histogram_enc.h(48): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“is_used_”后
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+D:\sdk\libwebp-master\src/utils/bit_writer_utils.h(135): warning C4127: 条件表达式是常量
+D:\sdk\libwebp-master\src\enc\predictor_enc.c(143): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\predictor_enc.c(165): warning C4244: “return”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\predictor_enc.c(167): warning C4242: “return”: 从“const int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\predictor_enc.c(174): warning C4244: “return”: 从“int”转换到“uint8_t”，可能丢失数据
+  quant_enc.c
+D:\sdk\libwebp-master\src/utils/bit_writer_utils.h(135): warning C4127: 条件表达式是常量
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(179): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“alpha_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(204): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“lambda_trellis_uv_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(222): warning C4820: “<anonymous-tag>”:“6”字节填充添加在 数据成员“derr”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(238): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“i4_boundary_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(242): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“left_nz_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(265): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“yuv_mem_”后
+D:\sdk\libwebp-master\src\enc\quant_enc.c(214): warning C4244: “=”: 从“int”转换到“uint16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\quant_enc.c(568): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“costs”后
+D:\sdk\libwebp-master\src\enc\quant_enc.c(625): warning C4242: “函数”: 从“const int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\quant_enc.c(630): warning C4242: “函数”: 从“const int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\quant_enc.c(698): warning C4242: “=”: 从“const int”转换到“int8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\quant_enc.c(699): warning C4242: “=”: 从“int”转换到“int16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\quant_enc.c(700): warning C4242: “=”: 从“int”转换到“int8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\quant_enc.c(733): warning C4242: “=”: 从“int”转换到“int8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\quant_enc.c(849): warning C4244: “=”: 从“const int”转换到“int16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\quant_enc.c(874): warning C4244: “+=”: 从“int”转换到“int16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\quant_enc.c(876): warning C4244: “+=”: 从“int”转换到“int16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\quant_enc.c(878): warning C4244: “+=”: 从“int”转换到“int16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\quant_enc.c(924): warning C4127: 条件表达式是常量
+D:\sdk\libwebp-master\src\enc\quant_enc.c(1132): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\quant_enc.c(1291): warning C4242: “=”: 从“int”转换到“uint8_t”，可能丢失数据
+  syntax_enc.c
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+D:\sdk\libwebp-master\src/utils/bit_writer_utils.h(135): warning C4127: 条件表达式是常量
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(179): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“alpha_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(204): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“lambda_trellis_uv_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(222): warning C4820: “<anonymous-tag>”:“6”字节填充添加在 数据成员“derr”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(238): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“i4_boundary_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(242): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“left_nz_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(265): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“yuv_mem_”后
+D:\sdk\libwebp-master\src\enc\syntax_enc.c(138): warning C4244: “=”: 从“const int”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\syntax_enc.c(140): warning C4244: “=”: 从“const int”转换到“uint8_t”，可能丢失数据
+  token_enc.c
+D:\sdk\libwebp-master\src/utils/bit_writer_utils.h(135): warning C4127: 条件表达式是常量
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(179): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“alpha_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(204): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“lambda_trellis_uv_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(222): warning C4820: “<anonymous-tag>”:“6”字节填充添加在 数据成员“derr”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(238): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“i4_boundary_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(242): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“left_nz_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(265): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“yuv_mem_”后
+D:\sdk\libwebp-master\src\enc\token_enc.c(97): warning C4244: “=”: 从“uint32_t”转换到“uint16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\token_enc.c(109): warning C4244: “=”: 从“uint32_t”转换到“uint16_t”，可能丢失数据
+  正在生成代码...
+d:\sdk\libwebp-master\src\enc\token_enc.c(62): warning C4711: 为自动内联扩展选定了函数“VP8TBufferInit”
+d:\sdk\libwebp-master\src\enc\token_enc.c(95): warning C4711: 为自动内联扩展选定了函数“TBufferNewPage”
+d:\sdk\libwebp-master\src\enc\token_enc.c(95): warning C4711: 为自动内联扩展选定了函数“TBufferNewPage”
+d:\sdk\libwebp-master\src\enc\token_enc.c(107): warning C4711: 为自动内联扩展选定了函数“TBufferNewPage”
+d:\sdk\libwebp-master\src\enc\token_enc.c(107): warning C4711: 为自动内联扩展选定了函数“TBufferNewPage”
+d:\sdk\libwebp-master\src\enc\token_enc.c(95): warning C4711: 为自动内联扩展选定了函数“TBufferNewPage”
+d:\sdk\libwebp-master\src\enc\syntax_enc.c(96): warning C4711: 为自动内联扩展选定了函数“PutPaddingByte”
+d:\sdk\libwebp-master\src\enc\syntax_enc.c(58): warning C4711: 为自动内联扩展选定了函数“IsVP8XNeeded”
+d:\sdk\libwebp-master\src\enc\syntax_enc.c(278): warning C4711: 为自动内联扩展选定了函数“PutSegmentHeader”
+d:\sdk\libwebp-master\src\enc\syntax_enc.c(279): warning C4711: 为自动内联扩展选定了函数“PutFilterHeader”
+d:\sdk\libwebp-master\src\enc\syntax_enc.c(283): warning C4711: 为自动内联扩展选定了函数“PutQuant”
+d:\sdk\libwebp-master\src\enc\syntax_enc.c(155): warning C4711: 为自动内联扩展选定了函数“PutRIFFHeader”
+d:\sdk\libwebp-master\src\enc\syntax_enc.c(159): warning C4711: 为自动内联扩展选定了函数“IsVP8XNeeded”
+d:\sdk\libwebp-master\src\enc\syntax_enc.c(58): warning C4711: 为自动内联扩展选定了函数“IsVP8XNeeded”
+d:\sdk\libwebp-master\src\enc\syntax_enc.c(160): warning C4711: 为自动内联扩展选定了函数“PutVP8XHeader”
+d:\sdk\libwebp-master\src\enc\syntax_enc.c(96): warning C4711: 为自动内联扩展选定了函数“PutPaddingByte”
+d:\sdk\libwebp-master\src\enc\syntax_enc.c(166): warning C4711: 为自动内联扩展选定了函数“PutAlphaChunk”
+d:\sdk\libwebp-master\src\enc\syntax_enc.c(171): warning C4711: 为自动内联扩展选定了函数“PutVP8Header”
+d:\sdk\libwebp-master\src\enc\syntax_enc.c(175): warning C4711: 为自动内联扩展选定了函数“PutVP8FrameHeader”
+d:\sdk\libwebp-master\src\enc\syntax_enc.c(344): warning C4711: 为自动内联扩展选定了函数“IsVP8XNeeded”
+d:\sdk\libwebp-master\src\enc\syntax_enc.c(361): warning C4711: 为自动内联扩展选定了函数“EmitPartitionsSize”
+d:\sdk\libwebp-master\src\enc\syntax_enc.c(379): warning C4711: 为自动内联扩展选定了函数“PutPaddingByte”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(378): warning C4711: 为自动内联扩展选定了函数“SegmentsAreEquivalent”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(978): warning C4711: 为自动内联扩展选定了函数“SwapPtr”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(273): warning C4711: 为自动内联扩展选定了函数“CheckLambdaValue”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(274): warning C4711: 为自动内联扩展选定了函数“CheckLambdaValue”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(275): warning C4711: 为自动内联扩展选定了函数“CheckLambdaValue”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(276): warning C4711: 为自动内联扩展选定了函数“CheckLambdaValue”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(277): warning C4711: 为自动内联扩展选定了函数“CheckLambdaValue”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(278): warning C4711: 为自动内联扩展选定了函数“CheckLambdaValue”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(279): warning C4711: 为自动内联扩展选定了函数“CheckLambdaValue”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(280): warning C4711: 为自动内联扩展选定了函数“CheckLambdaValue”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(408): warning C4711: 为自动内联扩展选定了函数“QualityToJPEGCompression”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(408): warning C4711: 为自动内联扩展选定了函数“QualityToCompression”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(450): warning C4711: 为自动内联扩展选定了函数“SetupFilterStrength”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(378): warning C4711: 为自动内联扩展选定了函数“SegmentsAreEquivalent”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(452): warning C4711: 为自动内联扩展选定了函数“SimplifySegments”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(922): warning C4711: 为自动内联扩展选定了函数“CorrectDCValues”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(1064): warning C4711: 为自动内联扩展选定了函数“InitScore”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(1074): warning C4711: 为自动内联扩展选定了函数“GetCostModeI4”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(1078): warning C4711: 为自动内联扩展选定了函数“InitScore”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(1079): warning C4711: 为自动内联扩展选定了函数“VP8MakeIntra4Preds”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(1112): warning C4711: 为自动内联扩展选定了函数“CopyScore”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(1114): warning C4711: 为自动内联扩展选定了函数“SwapPtr”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(1120): warning C4711: 为自动内联扩展选定了函数“AddScore”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(1137): warning C4711: 为自动内联扩展选定了函数“CopyScore”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(978): warning C4711: 为自动内联扩展选定了函数“SwapPtr”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(1139): warning C4711: 为自动内联扩展选定了函数“SwapOut”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(1212): warning C4711: 为自动内联扩展选定了函数“VP8MakeIntra4Preds”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(1158): warning C4711: 为自动内联扩展选定了函数“InitScore”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(1020): warning C4711: 为自动内联扩展选定了函数“SwapModeScore”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(978): warning C4711: 为自动内联扩展选定了函数“SwapPtr”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(1176): warning C4711: 为自动内联扩展选定了函数“CopyScore”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(1021): warning C4711: 为自动内联扩展选定了函数“SwapOut”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(1182): warning C4711: 为自动内联扩展选定了函数“SwapPtr”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(1034): warning C4711: 为自动内联扩展选定了函数“StoreMaxDelta”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(1186): warning C4711: 为自动内联扩展选定了函数“AddScore”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(1191): warning C4711: 为自动内联扩展选定了函数“StoreDiffusionErrors”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(1278): warning C4711: 为自动内联扩展选定了函数“GetCostModeI4”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(1280): warning C4711: 为自动内联扩展选定了函数“VP8MakeIntra4Preds”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(978): warning C4711: 为自动内联扩展选定了函数“SwapPtr”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(1308): warning C4711: 为自动内联扩展选定了函数“SwapOut”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(1344): warning C4711: 为自动内联扩展选定了函数“InitScore”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(1348): warning C4711: 为自动内联扩展选定了函数“VP8MakeLuma16Preds”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(1349): warning C4711: 为自动内联扩展选定了函数“VP8MakeChroma8Preds”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(1212): warning C4711: 为自动内联扩展选定了函数“VP8MakeIntra4Preds”
+d:\sdk\libwebp-master\src\enc\quant_enc.c(1360): warning C4711: 为自动内联扩展选定了函数“SimpleQuantize”
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(105): warning C4711: 为自动内联扩展选定了函数“MaxDiffBetweenPixels”
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(106): warning C4711: 为自动内联扩展选定了函数“MaxDiffBetweenPixels”
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(107): warning C4711: 为自动内联扩展选定了函数“MaxDiffBetweenPixels”
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(108): warning C4711: 为自动内联扩展选定了函数“MaxDiffBetweenPixels”
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(43): warning C4738: 将 32 位浮点型结果存储在内存中，可能会降低性能
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(43): warning C4738: 将 32 位浮点型结果存储在内存中，可能会降低性能
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(536): warning C4711: 为自动内联扩展选定了函数“PredictionCostSpatial”
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(52): warning C4711: 为自动内联扩展选定了函数“PredictionCostSpatial”
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(128): warning C4711: 为自动内联扩展选定了函数“AddGreenToBlueAndRed”
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(129): warning C4711: 为自动内联扩展选定了函数“AddGreenToBlueAndRed”
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(139): warning C4711: 为自动内联扩展选定了函数“AddGreenToBlueAndRed”
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(140): warning C4711: 为自动内联扩展选定了函数“AddGreenToBlueAndRed”
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(141): warning C4711: 为自动内联扩展选定了函数“AddGreenToBlueAndRed”
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(536): warning C4738: 将 32 位浮点型结果存储在内存中，可能会降低性能
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(43): warning C4738: 将 32 位浮点型结果存储在内存中，可能会降低性能
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(557): warning C4738: 将 32 位浮点型结果存储在内存中，可能会降低性能
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(550): warning C4738: 将 32 位浮点型结果存储在内存中，可能会降低性能
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(55): warning C4738: 将 32 位浮点型结果存储在内存中，可能会降低性能
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(55): warning C4738: 将 32 位浮点型结果存储在内存中，可能会降低性能
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(581): warning C4711: 为自动内联扩展选定了函数“GetPredictionCostCrossColorRed”
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(619): warning C4738: 将 32 位浮点型结果存储在内存中，可能会降低性能
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(603): warning C4738: 将 32 位浮点型结果存储在内存中，可能会降低性能
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(52): warning C4711: 为自动内联扩展选定了函数“PredictionCostSpatial”
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(385): warning C4711: 为自动内联扩展选定了函数“PredictionCostSpatialHistogram”
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(573): warning C4738: 将 32 位浮点型结果存储在内存中，可能会降低性能
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(573): warning C4738: 将 32 位浮点型结果存储在内存中，可能会降低性能
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(570): warning C4738: 将 32 位浮点型结果存储在内存中，可能会降低性能
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(550): warning C4738: 将 32 位浮点型结果存储在内存中，可能会降低性能
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(664): warning C4738: 将 32 位浮点型结果存储在内存中，可能会降低性能
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(664): warning C4738: 将 32 位浮点型结果存储在内存中，可能会降低性能
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(641): warning C4738: 将 32 位浮点型结果存储在内存中，可能会降低性能
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(651): warning C4738: 将 32 位浮点型结果存储在内存中，可能会降低性能
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(581): warning C4711: 为自动内联扩展选定了函数“GetPredictionCostCrossColorRed”
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(695): warning C4711: 为自动内联扩展选定了函数“GetBestGreenToRed”
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(697): warning C4711: 为自动内联扩展选定了函数“GetBestGreenRedToBlue”
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(700): warning C4738: 将 32 位浮点型结果存储在内存中，可能会降低性能
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(700): warning C4738: 将 32 位浮点型结果存储在内存中，可能会降低性能
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(700): warning C4738: 将 32 位浮点型结果存储在内存中，可能会降低性能
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(700): warning C4738: 将 32 位浮点型结果存储在内存中，可能会降低性能
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(570): warning C4738: 将 32 位浮点型结果存储在内存中，可能会降低性能
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(550): warning C4738: 将 32 位浮点型结果存储在内存中，可能会降低性能
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(641): warning C4738: 将 32 位浮点型结果存储在内存中，可能会降低性能
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(651): warning C4738: 将 32 位浮点型结果存储在内存中，可能会降低性能
+d:\sdk\libwebp-master\src\enc\predictor_enc.c(746): warning C4711: 为自动内联扩展选定了函数“CopyTileWithColorTransform”
+d:\sdk\libwebp-master\src\enc\picture_tools_enc.c(112): warning C4711: 为自动内联扩展选定了函数“IsTransparentARGBArea”
+d:\sdk\libwebp-master\src\enc\picture_tools_enc.c(117): warning C4711: 为自动内联扩展选定了函数“FlattenARGB”
+d:\sdk\libwebp-master\src\enc\picture_tools_enc.c(148): warning C4711: 为自动内联扩展选定了函数“Flatten”
+d:\sdk\libwebp-master\src\enc\picture_tools_enc.c(149): warning C4711: 为自动内联扩展选定了函数“Flatten”
+d:\sdk\libwebp-master\src\enc\picture_tools_enc.c(150): warning C4711: 为自动内联扩展选定了函数“Flatten”
+d:\sdk\libwebp-master\src\enc\picture_rescale_enc.c(51): warning C4711: 为自动内联扩展选定了函数“SnapTopLeftPosition”
+d:\sdk\libwebp-master\src\enc\picture_rescale_enc.c(211): warning C4711: 为自动内联扩展选定了函数“PictureGrabSpecs”
+d:\sdk\libwebp-master\src\enc\picture_rescale_enc.c(51): warning C4711: 为自动内联扩展选定了函数“SnapTopLeftPosition”
+d:\sdk\libwebp-master\src\enc\picture_rescale_enc.c(131): warning C4711: 为自动内联扩展选定了函数“AdjustAndCheckRectangle”
+d:\sdk\libwebp-master\src\enc\picture_rescale_enc.c(133): warning C4711: 为自动内联扩展选定了函数“PictureGrabSpecs”
+d:\sdk\libwebp-master\src\enc\picture_psnr_enc.c(207): warning C4711: 为自动内联扩展选定了函数“WebPPlaneDistortion”
+d:\sdk\libwebp-master\src\enc\picture_psnr_enc.c(188): warning C4738: 将 32 位浮点型结果存储在内存中，可能会降低性能
+d:\sdk\libwebp-master\src\enc\picture_psnr_enc.c(165): warning C4738: 将 32 位浮点型结果存储在内存中，可能会降低性能
+d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(387): warning C4711: 为自动内联扩展选定了函数“clip_8b”
+d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(392): warning C4711: 为自动内联扩展选定了函数“clip_8b”
+d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(397): warning C4711: 为自动内联扩展选定了函数“clip_8b”
+d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(93): warning C4711: 为自动内联扩展选定了函数“InitGammaTables_body”
+d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(322): warning C4711: 为自动内联扩展选定了函数“clip_y”
+d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(286): warning C4711: 为自动内联扩展选定了函数“RGBToGray”
+d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(284): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解
+  d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(282) : 注意: 在此行上通过对比检查索引 "w" 范围
+  d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(238) : 注意: 此行上的源内存负载
+d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(314): warning C4711: 为自动内联扩展选定了函数“RGBToGray”
+d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(185): warning C4711: 为自动内联扩展选定了函数“InitGammaTablesS_body”
+d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(295): warning C4711: 为自动内联扩展选定了函数“ScaleDown”
+d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(297): warning C4711: 为自动内联扩展选定了函数“ScaleDown”
+d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(299): warning C4711: 为自动内联扩展选定了函数“ScaleDown”
+d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(301): warning C4711: 为自动内联扩展选定了函数“RGBToGray”
+d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(387): warning C4711: 为自动内联扩展选定了函数“clip_8b”
+d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(392): warning C4711: 为自动内联扩展选定了函数“clip_8b”
+d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(397): warning C4711: 为自动内联扩展选定了函数“clip_8b”
+d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(322): warning C4711: 为自动内联扩展选定了函数“clip_y”
+d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(322): warning C4711: 为自动内联扩展选定了函数“clip_y”
+d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(322): warning C4711: 为自动内联扩展选定了函数“clip_y”
+d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(322): warning C4711: 为自动内联扩展选定了函数“clip_y”
+d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(299): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解
+  d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(294) : 注意: 在此行上通过对比检查索引 "uv_w" 范围
+  d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(238) : 注意: 此行上的源内存负载
+d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(763): warning C4711: 为自动内联扩展选定了函数“RGBToY”
+d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(286): warning C4711: 为自动内联扩展选定了函数“RGBToGray”
+d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(286): warning C4711: 为自动内联扩展选定了函数“RGBToGray”
+d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(286): warning C4711: 为自动内联扩展选定了函数“RGBToGray”
+d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(286): warning C4711: 为自动内联扩展选定了函数“RGBToGray”
+d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(185): warning C4711: 为自动内联扩展选定了函数“InitGammaTablesS_body”
+d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(877): warning C4711: 为自动内联扩展选定了函数“InitGammaTablesS”
+d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(93): warning C4711: 为自动内联扩展选定了函数“InitGammaTables_body”
+d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(904): warning C4711: 为自动内联扩展选定了函数“InitGammaTables”
+d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(1025): warning C4711: 为自动内联扩展选定了函数“PictureARGBToYUVA”
+d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(1021): warning C4711: 为自动内联扩展选定了函数“PictureARGBToYUVA”
+d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(1025): warning C4711: 为自动内联扩展选定了函数“PictureARGBToYUVA”
+d:\sdk\libwebp-master\src\enc\picture_csp_enc.c(1029): warning C4711: 为自动内联扩展选定了函数“WebPPictureSharpARGBToYUVA”
+d:\sdk\libwebp-master\src\enc\picture_enc.c(73): warning C4711: 为自动内联扩展选定了函数“WebPPictureResetBufferARGB”
+d:\sdk\libwebp-master\src\enc\picture_enc.c(62): warning C4711: 为自动内联扩展选定了函数“WebPPictureResetBufferARGB”
+d:\sdk\libwebp-master\src\enc\picture_enc.c(63): warning C4711: 为自动内联扩展选定了函数“WebPPictureResetBufferYUVA”
+d:\sdk\libwebp-master\src\enc\picture_enc.c(104): warning C4711: 为自动内联扩展选定了函数“WebPPictureResetBufferYUVA”
+d:\sdk\libwebp-master\src\webp\encode.h(369): warning C4711: 为自动内联扩展选定了函数“WebPPictureInitInternal”
+d:\sdk\libwebp-master\src\enc\picture_enc.c(62): warning C4711: 为自动内联扩展选定了函数“WebPPictureResetBufferARGB”
+d:\sdk\libwebp-master\src\enc\picture_enc.c(63): warning C4711: 为自动内联扩展选定了函数“WebPPictureResetBufferYUVA”
+d:\sdk\libwebp-master\src\enc\picture_enc.c(173): warning C4711: 为自动内联扩展选定了函数“WebPPictureResetBuffers”
+d:\sdk\libwebp-master\src\webp\encode.h(369): warning C4711: 为自动内联扩展选定了函数“WebPPictureInitInternal”
+d:\sdk\libwebp-master\src\enc\picture_enc.c(253): warning C4711: 为自动内联扩展选定了函数“WebPMemoryWriterInit”
+d:\sdk\libwebp-master\src\enc\picture_enc.c(258): warning C4711: 为自动内联扩展选定了函数“WebPMemoryWriterClear”
+d:\sdk\libwebp-master\src\enc\picture_enc.c(104): warning C4711: 为自动内联扩展选定了函数“WebPPictureResetBufferYUVA”
+d:\sdk\libwebp-master\src\enc\picture_enc.c(161): warning C4711: 为自动内联扩展选定了函数“WebPPictureAllocYUVA”
+d:\sdk\libwebp-master\src\enc\picture_enc.c(73): warning C4711: 为自动内联扩展选定了函数“WebPPictureResetBufferARGB”
+d:\sdk\libwebp-master\src\enc\picture_enc.c(163): warning C4711: 为自动内联扩展选定了函数“WebPPictureAllocARGB”
+d:\sdk\libwebp-master\src\enc\near_lossless_enc.c(41): warning C4711: 为自动内联扩展选定了函数“FindClosestDiscretized”
+d:\sdk\libwebp-master\src\enc\near_lossless_enc.c(41): warning C4711: 为自动内联扩展选定了函数“FindClosestDiscretized”
+d:\sdk\libwebp-master\src\enc\near_lossless_enc.c(41): warning C4711: 为自动内联扩展选定了函数“FindClosestDiscretized”
+d:\sdk\libwebp-master\src\enc\near_lossless_enc.c(41): warning C4711: 为自动内联扩展选定了函数“FindClosestDiscretized”
+d:\sdk\libwebp-master\src\enc\near_lossless_enc.c(67): warning C4711: 为自动内联扩展选定了函数“IsNear”
+d:\sdk\libwebp-master\src\enc\near_lossless_enc.c(67): warning C4711: 为自动内联扩展选定了函数“IsNear”
+d:\sdk\libwebp-master\src\enc\near_lossless_enc.c(67): warning C4711: 为自动内联扩展选定了函数“IsNear”
+d:\sdk\libwebp-master\src\enc\near_lossless_enc.c(93): warning C4711: 为自动内联扩展选定了函数“IsSmooth”
+d:\sdk\libwebp-master\src\enc\iterator_enc.c(206): warning C4711: 为自动内联扩展选定了函数“ExportBlock”
+d:\sdk\libwebp-master\src\enc\iterator_enc.c(211): warning C4711: 为自动内联扩展选定了函数“ExportBlock”
+d:\sdk\libwebp-master\src\enc\iterator_enc.c(212): warning C4711: 为自动内联扩展选定了函数“ExportBlock”
+d:\sdk\libwebp-master\src\enc\iterator_enc.c(170): warning C4711: 为自动内联扩展选定了函数“ImportLine”
+d:\sdk\libwebp-master\src\enc\iterator_enc.c(171): warning C4711: 为自动内联扩展选定了函数“ImportLine”
+d:\sdk\libwebp-master\src\enc\iterator_enc.c(172): warning C4711: 为自动内联扩展选定了函数“ImportLine”
+d:\sdk\libwebp-master\src\enc\iterator_enc.c(427): warning C4711: 为自动内联扩展选定了函数“VP8IteratorNzToBytes”
+d:\sdk\libwebp-master\src\enc\iterator_enc.c(60): warning C4711: 为自动内联扩展选定了函数“VP8IteratorSetCountDown”
+d:\sdk\libwebp-master\src\enc\iterator_enc.c(61): warning C4711: 为自动内联扩展选定了函数“InitTop”
+d:\sdk\libwebp-master\src\enc\iterator_enc.c(60): warning C4711: 为自动内联扩展选定了函数“VP8IteratorSetCountDown”
+d:\sdk\libwebp-master\src\enc\iterator_enc.c(61): warning C4711: 为自动内联扩展选定了函数“InitTop”
+d:\sdk\libwebp-master\src\enc\iterator_enc.c(86): warning C4711: 为自动内联扩展选定了函数“VP8IteratorReset”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(282): warning C4711: 为自动内联扩展选定了函数“InitialHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(544): warning C4711: 为自动内联扩展选定了函数“GetBinIdForEntropy”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(548): warning C4711: 为自动内联扩展选定了函数“GetBinIdForEntropy”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(550): warning C4711: 为自动内联扩展选定了函数“GetBinIdForEntropy”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(127): warning C4711: 为自动内联扩展选定了函数“VP8LGetHistogramSize”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(141): warning C4711: 为自动内联扩展选定了函数“VP8LGetHistogramSize”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(37): warning C4711: 为自动内联扩展选定了函数“VP8LGetHistogramSize”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(55): warning C4711: 为自动内联扩展选定了函数“VP8LGetHistogramSize”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(282): warning C4711: 为自动内联扩展选定了函数“InitialHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(312): warning C4711: 为自动内联扩展选定了函数“FinalHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(282): warning C4711: 为自动内联扩展选定了函数“InitialHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(334): warning C4711: 为自动内联扩展选定了函数“FinalHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(282): warning C4711: 为自动内联扩展选定了函数“InitialHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(354): warning C4711: 为自动内联扩展选定了函数“FinalHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(624): warning C4711: 为自动内联扩展选定了函数“DominantCostRangeInit”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(629): warning C4711: 为自动内联扩展选定了函数“UpdateDominantCostRange”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(544): warning C4711: 为自动内联扩展选定了函数“GetBinIdForEntropy”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(548): warning C4711: 为自动内联扩展选定了函数“GetBinIdForEntropy”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(550): warning C4711: 为自动内联扩展选定了函数“GetBinIdForEntropy”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(638): warning C4711: 为自动内联扩展选定了函数“GetHistoBinIndex”
+d:\sdk\libwebp-master\src\dsp\lossless_common.h(130): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解
+  d:\sdk\libwebp-master\src\dsp\lossless_common.h(128) : 注意: 在此行上通过对比检查索引 "" 范围
+  d:\sdk\libwebp-master\src\enc\histogram_enc.c(224) : 注意: 此行上的源内存负载
+d:\sdk\libwebp-master\src\dsp\lossless_common.h(130): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解
+  d:\sdk\libwebp-master\src\dsp\lossless_common.h(128) : 注意: 在此行上通过对比检查索引 "distance" 范围
+  d:\sdk\libwebp-master\src\enc\histogram_enc.c(224) : 注意: 此行上的源内存负载
+d:\sdk\libwebp-master\src\dsp\lossless_common.h(130): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解
+  d:\sdk\libwebp-master\src\dsp\lossless_common.h(128) : 注意: 在此行上通过对比检查索引 "distance" 范围
+  d:\sdk\libwebp-master\src\enc\histogram_enc.c(216) : 注意: 此行上的源内存负载
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(141): warning C4711: 为自动内联扩展选定了函数“VP8LGetHistogramSize”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(169): warning C4711: 为自动内联扩展选定了函数“HistogramSetTotalSize”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(282): warning C4711: 为自动内联扩展选定了函数“InitialHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(312): warning C4711: 为自动内联扩展选定了函数“FinalHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(360): warning C4711: 为自动内联扩展选定了函数“PopulationCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(282): warning C4711: 为自动内联扩展选定了函数“InitialHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(312): warning C4711: 为自动内联扩展选定了函数“FinalHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(360): warning C4711: 为自动内联扩展选定了函数“PopulationCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(282): warning C4711: 为自动内联扩展选定了函数“InitialHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(312): warning C4711: 为自动内联扩展选定了函数“FinalHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(360): warning C4711: 为自动内联扩展选定了函数“PopulationCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(282): warning C4711: 为自动内联扩展选定了函数“InitialHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(312): warning C4711: 为自动内联扩展选定了函数“FinalHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(360): warning C4711: 为自动内联扩展选定了函数“PopulationCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(282): warning C4711: 为自动内联扩展选定了函数“InitialHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(312): warning C4711: 为自动内联扩展选定了函数“FinalHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(360): warning C4711: 为自动内联扩展选定了函数“PopulationCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(282): warning C4711: 为自动内联扩展选定了函数“InitialHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(312): warning C4711: 为自动内联扩展选定了函数“FinalHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(508): warning C4711: 为自动内联扩展选定了函数“PopulationCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(282): warning C4711: 为自动内联扩展选定了函数“InitialHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(312): warning C4711: 为自动内联扩展选定了函数“FinalHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(511): warning C4711: 为自动内联扩展选定了函数“PopulationCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(282): warning C4711: 为自动内联扩展选定了函数“InitialHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(312): warning C4711: 为自动内联扩展选定了函数“FinalHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(515): warning C4711: 为自动内联扩展选定了函数“PopulationCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(282): warning C4711: 为自动内联扩展选定了函数“InitialHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(312): warning C4711: 为自动内联扩展选定了函数“FinalHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(518): warning C4711: 为自动内联扩展选定了函数“PopulationCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(282): warning C4711: 为自动内联扩展选定了函数“InitialHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(312): warning C4711: 为自动内联扩展选定了函数“FinalHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(520): warning C4711: 为自动内联扩展选定了函数“PopulationCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(113): warning C4711: 为自动内联扩展选定了函数“VP8LGetHistogramSize”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(119): warning C4711: 为自动内联扩展选定了函数“VP8LHistogramInit”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(141): warning C4711: 为自动内联扩展选定了函数“VP8LGetHistogramSize”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(149): warning C4711: 为自动内联扩展选定了函数“HistogramSetTotalSize”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(160): warning C4711: 为自动内联扩展选定了函数“VP8LHistogramInit”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(282): warning C4711: 为自动内联扩展选定了函数“InitialHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(334): warning C4711: 为自动内联扩展选定了函数“FinalHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(282): warning C4711: 为自动内联扩展选定了函数“InitialHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(354): warning C4711: 为自动内联扩展选定了函数“FinalHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(282): warning C4711: 为自动内联扩展选定了函数“InitialHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(334): warning C4711: 为自动内联扩展选定了函数“FinalHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(282): warning C4711: 为自动内联扩展选定了函数“InitialHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(354): warning C4711: 为自动内联扩展选定了函数“FinalHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(282): warning C4711: 为自动内联扩展选定了函数“InitialHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(334): warning C4711: 为自动内联扩展选定了函数“FinalHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(282): warning C4711: 为自动内联扩展选定了函数“InitialHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(354): warning C4711: 为自动内联扩展选定了函数“FinalHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(282): warning C4711: 为自动内联扩展选定了函数“InitialHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(334): warning C4711: 为自动内联扩展选定了函数“FinalHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(282): warning C4711: 为自动内联扩展选定了函数“InitialHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(354): warning C4711: 为自动内联扩展选定了函数“FinalHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(282): warning C4711: 为自动内联扩展选定了函数“InitialHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(334): warning C4711: 为自动内联扩展选定了函数“FinalHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(282): warning C4711: 为自动内联扩展选定了函数“InitialHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(354): warning C4711: 为自动内联扩展选定了函数“FinalHuffmanCost”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(93): warning C4711: 为自动内联扩展选定了函数“VP8LHistogramStoreRefs”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(55): warning C4711: 为自动内联扩展选定了函数“VP8LGetHistogramSize”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(608): warning C4711: 为自动内联扩展选定了函数“HistogramCopy”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(822): warning C4711: 为自动内联扩展选定了函数“HistoQueueUpdatePair”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(1069): warning C4711: 为自动内联扩展选定了函数“HistogramAddThresh”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(678): warning C4711: 为自动内联扩展选定了函数“HistogramSetRemoveHistogram”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(684): warning C4711: 为自动内联扩展选定了函数“HistogramAddEval”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(701): warning C4711: 为自动内联扩展选定了函数“HistogramSwap”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(853): warning C4711: 为自动内联扩展选定了函数“HistoQueueInit”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(873): warning C4711: 为自动内联扩展选定了函数“HistogramSetRemoveHistogram”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(880): warning C4711: 为自动内联扩展选定了函数“HistoQueuePopPair”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(897): warning C4711: 为自动内联扩展选定了函数“HistoQueueClear”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(934): warning C4711: 为自动内联扩展选定了函数“HistoQueueInit”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(960): warning C4711: 为自动内联扩展选定了函数“MyRand”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(1003): warning C4711: 为自动内联扩展选定了函数“HistoQueuePopPair”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(1023): warning C4711: 为自动内联扩展选定了函数“HistoQueueUpdatePair”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(1038): warning C4711: 为自动内联扩展选定了函数“HistoQueueClear”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(141): warning C4711: 为自动内联扩展选定了函数“VP8LGetHistogramSize”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(149): warning C4711: 为自动内联扩展选定了函数“HistogramSetTotalSize”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(160): warning C4711: 为自动内联扩展选定了函数“VP8LHistogramInit”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(1182): warning C4711: 为自动内联扩展选定了函数“VP8LAllocateHistogramSet”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(1196): warning C4711: 为自动内联扩展选定了函数“HistogramBuild”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(55): warning C4711: 为自动内联扩展选定了函数“VP8LGetHistogramSize”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(608): warning C4711: 为自动内联扩展选定了函数“HistogramCopy”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(1199): warning C4711: 为自动内联扩展选定了函数“HistogramCopyAndAnalyze”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(1207): warning C4711: 为自动内联扩展选定了函数“GetCombineCostFactor”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(624): warning C4711: 为自动内联扩展选定了函数“DominantCostRangeInit”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(629): warning C4711: 为自动内联扩展选定了函数“UpdateDominantCostRange”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(544): warning C4711: 为自动内联扩展选定了函数“GetBinIdForEntropy”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(548): warning C4711: 为自动内联扩展选定了函数“GetBinIdForEntropy”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(550): warning C4711: 为自动内联扩展选定了函数“GetBinIdForEntropy”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(638): warning C4711: 为自动内联扩展选定了函数“GetHistoBinIndex”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(1211): warning C4711: 为自动内联扩展选定了函数“HistogramAnalyzeEntropyBin”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(1069): warning C4711: 为自动内联扩展选定了函数“HistogramAddThresh”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(1242): warning C4711: 为自动内联扩展选定了函数“HistogramRemap”
+d:\sdk\libwebp-master\src\enc\histogram_enc.c(1247): warning C4711: 为自动内联扩展选定了函数“VP8LFreeHistogramSet”
+d:\sdk\libwebp-master\src\enc\frame_enc.c(57): warning C4711: 为自动内联扩展选定了函数“Clamp”
+d:\sdk\libwebp-master\src\enc\frame_enc.c(78): warning C4711: 为自动内联扩展选定了函数“Clamp”
+d:\sdk\libwebp-master\src\enc\frame_enc.c(81): warning C4711: 为自动内联扩展选定了函数“Clamp”
+d:\sdk\libwebp-master\src\enc\frame_enc.c(118): warning C4711: 为自动内联扩展选定了函数“CalcSkipProba”
+d:\sdk\libwebp-master\src\enc\frame_enc.c(532): warning C4711: 为自动内联扩展选定了函数“ResetSSE”
+d:\sdk\libwebp-master\src\enc\frame_enc.c(497): warning C4711: 为自动内联扩展选定了函数“StoreSSE”
+d:\sdk\libwebp-master\src\enc\frame_enc.c(215): warning C4711: 为自动内联扩展选定了函数“GetProba”
+d:\sdk\libwebp-master\src\enc\frame_enc.c(216): warning C4711: 为自动内联扩展选定了函数“GetProba”
+d:\sdk\libwebp-master\src\enc\frame_enc.c(217): warning C4711: 为自动内联扩展选定了函数“GetProba”
+d:\sdk\libwebp-master\src\enc\frame_enc.c(221): warning C4711: 为自动内联扩展选定了函数“ResetSegments”
+d:\sdk\libwebp-master\src\enc\frame_enc.c(159): warning C4711: 为自动内联扩展选定了函数“CalcTokenProba”
+d:\sdk\libwebp-master\src\enc\frame_enc.c(160): warning C4711: 为自动内联扩展选定了函数“BranchCost”
+d:\sdk\libwebp-master\src\enc\frame_enc.c(162): warning C4711: 为自动内联扩展选定了函数“BranchCost”
+d:\sdk\libwebp-master\src\enc\frame_enc.c(565): warning C4711: 为自动内联扩展选定了函数“Clamp”
+d:\sdk\libwebp-master\src\enc\frame_enc.c(570): warning C4711: 为自动内联扩展选定了函数“ResetStats”
+d:\sdk\libwebp-master\src\enc\frame_enc.c(571): warning C4711: 为自动内联扩展选定了函数“ResetSSE”
+d:\sdk\libwebp-master\src\enc\frame_enc.c(609): warning C4711: 为自动内联扩展选定了函数“GetPSNR”
+d:\sdk\libwebp-master\src\enc\frame_enc.c(811): warning C4711: 为自动内联扩展选定了函数“ResetTokenStats”
+d:\sdk\libwebp-master\src\enc\frame_enc.c(850): warning C4711: 为自动内联扩展选定了函数“GetPSNR”
+d:\sdk\libwebp-master\src\enc\frame_enc.c(532): warning C4711: 为自动内联扩展选定了函数“ResetSSE”
+d:\sdk\libwebp-master\src\enc\frame_enc.c(863): warning C4711: 为自动内联扩展选定了函数“ResetSideInfo”
+d:\sdk\libwebp-master\src\enc\frame_enc.c(78): warning C4711: 为自动内联扩展选定了函数“Clamp”
+d:\sdk\libwebp-master\src\enc\frame_enc.c(81): warning C4711: 为自动内联扩展选定了函数“Clamp”
+d:\sdk\libwebp-master\src\enc\frame_enc.c(82): warning C4711: 为自动内联扩展选定了函数“ComputeNextQ”
+d:\sdk\libwebp-master\src\enc\frame_enc.c(629): warning C4711: 为自动内联扩展选定了函数“ResetTokenStats”
+d:\sdk\libwebp-master\src\enc\frame_enc.c(609): warning C4711: 为自动内联扩展选定了函数“GetPSNR”
+d:\sdk\libwebp-master\src\enc\frame_enc.c(644): warning C4711: 为自动内联扩展选定了函数“OneStatPass”
+d:\sdk\libwebp-master\src\enc\frame_enc.c(78): warning C4711: 为自动内联扩展选定了函数“Clamp”
+d:\sdk\libwebp-master\src\enc\frame_enc.c(81): warning C4711: 为自动内联扩展选定了函数“Clamp”
+d:\sdk\libwebp-master\src\enc\frame_enc.c(82): warning C4711: 为自动内联扩展选定了函数“ComputeNextQ”
+d:\sdk\libwebp-master\src\enc\frame_enc.c(758): warning C4711: 为自动内联扩展选定了函数“ResetAfterSkip”
+d:\sdk\libwebp-master\src\enc\filter_enc.c(222): warning C4711: 为自动内联扩展选定了函数“VP8FilterStrengthFromDelta”
+d:\sdk\libwebp-master\src\enc\filter_enc.c(87): warning C4711: 为自动内联扩展选定了函数“GetILevel”
+d:\sdk\libwebp-master\src\enc\filter_enc.c(87): warning C4711: 为自动内联扩展选定了函数“GetILevel”
+d:\sdk\libwebp-master\src\enc\filter_enc.c(186): warning C4711: 为自动内联扩展选定了函数“DoFilter”
+d:\sdk\libwebp-master\src\enc\cost_enc.c(225): warning C4711: 为自动内联扩展选定了函数“VP8InitResidual”
+d:\sdk\libwebp-master\src\enc\cost_enc.c(241): warning C4711: 为自动内联扩展选定了函数“VP8InitResidual”
+d:\sdk\libwebp-master\src\enc\cost_enc.c(246): warning C4711: 为自动内联扩展选定了函数“VP8InitResidual”
+d:\sdk\libwebp-master\src\enc\cost_enc.c(266): warning C4711: 为自动内联扩展选定了函数“VP8InitResidual”
+d:\sdk\libwebp-master\src\enc\cost_enc.c(76): warning C4711: 为自动内联扩展选定了函数“VariableLevelCost”
+d:\sdk\libwebp-master\src\enc\config_enc.c(95): warning C4711: 为自动内联扩展选定了函数“WebPValidateConfig”
+d:\sdk\libwebp-master\src\enc\backward_references_enc.c(99): warning C4711: 为自动内联扩展选定了函数“VP8LClearBackwardRefs”
+d:\sdk\libwebp-master\src\enc\backward_references_enc.h(207): warning C4711: 为自动内联扩展选定了函数“VP8LRefsCursorNextBlock”
+d:\sdk\libwebp-master\src\enc\backward_references_enc.c(176): warning C4711: 为自动内联扩展选定了函数“VP8LClearBackwardRefs”
+d:\sdk\libwebp-master\src\enc\backward_references_enc.c(178): warning C4711: 为自动内联扩展选定了函数“BackwardRefsNewBlock”
+d:\sdk\libwebp-master\src\enc\backward_references_enc.c(439): warning C4711: 为自动内联扩展选定了函数“VP8LBackwardRefsCursorAdd”
+d:\sdk\libwebp-master\src\enc\backward_references_enc.c(260): warning C4711: 为自动内联扩展选定了函数“GetMaxItersForQuality”
+d:\sdk\libwebp-master\src\enc\backward_references_enc.c(261): warning C4711: 为自动内联扩展选定了函数“GetWindowSizeForHashChain”
+d:\sdk\libwebp-master\src\enc\backward_references_enc.c(710): warning C4711: 为自动内联扩展选定了函数“VP8LRefsCursorInit”
+d:\sdk\libwebp-master\src\enc\backward_references_enc.c(714): warning C4711: 为自动内联扩展选定了函数“VP8LDistanceToPlaneCode”
+d:\sdk\libwebp-master\src\enc\backward_references_enc.h(207): warning C4711: 为自动内联扩展选定了函数“VP8LRefsCursorNextBlock”
+d:\sdk\libwebp-master\src\enc\backward_references_enc.c(837): warning C4711: 为自动内联扩展选定了函数“VP8LRefsCursorInit”
+d:\sdk\libwebp-master\src\enc\backward_references_enc.h(207): warning C4711: 为自动内联扩展选定了函数“VP8LRefsCursorNextBlock”
+d:\sdk\libwebp-master\src\enc\backward_references_enc.c(734): warning C4711: 为自动内联扩展选定了函数“VP8LRefsCursorInit”
+d:\sdk\libwebp-master\src\enc\backward_references_enc.h(207): warning C4711: 为自动内联扩展选定了函数“VP8LRefsCursorNextBlock”
+d:\sdk\libwebp-master\src\enc\backward_references_enc.c(453): warning C4711: 为自动内联扩展选定了函数“VP8LClearBackwardRefs”
+d:\sdk\libwebp-master\src\enc\backward_references_enc.c(439): warning C4711: 为自动内联扩展选定了函数“VP8LBackwardRefsCursorAdd”
+d:\sdk\libwebp-master\src\enc\backward_references_enc.c(463): warning C4711: 为自动内联扩展选定了函数“VP8LBackwardRefsCursorAdd”
+d:\sdk\libwebp-master\src\enc\backward_references_enc.c(469): warning C4711: 为自动内联扩展选定了函数“VP8LBackwardRefsCursorAdd”
+d:\sdk\libwebp-master\src\enc\backward_references_enc.c(439): warning C4711: 为自动内联扩展选定了函数“VP8LBackwardRefsCursorAdd”
+d:\sdk\libwebp-master\src\enc\backward_references_enc.c(501): warning C4711: 为自动内联扩展选定了函数“VP8LClearBackwardRefs”
+d:\sdk\libwebp-master\src\enc\backward_references_enc.c(194): warning C4711: 为自动内联扩展选定了函数“BackwardRefsNewBlock”
+d:\sdk\libwebp-master\src\enc\backward_references_enc.c(439): warning C4711: 为自动内联扩展选定了函数“VP8LBackwardRefsCursorAdd”
+d:\sdk\libwebp-master\src\enc\backward_references_enc.c(194): warning C4711: 为自动内联扩展选定了函数“BackwardRefsNewBlock”
+d:\sdk\libwebp-master\src\enc\backward_references_enc.c(539): warning C4711: 为自动内联扩展选定了函数“VP8LBackwardRefsCursorAdd”
+d:\sdk\libwebp-master\src\dsp\lossless_common.h(142): warning C5045: 如果指定了 /Qspectre 开关，编译器会插入内存负载的 Spectre 缓解
+  d:\sdk\libwebp-master\src\dsp\lossless_common.h(140) : 注意: 在此行上通过对比检查索引 "len" 范围
+  d:\sdk\libwebp-master\src\enc\backward_references_enc.c(797) : 注意: 此行上的源内存负载
+d:\sdk\libwebp-master\src\enc\backward_references_enc.c(597): warning C4711: 为自动内联扩展选定了函数“VP8LDistanceToPlaneCode”
+d:\sdk\libwebp-master\src\enc\backward_references_enc.c(693): warning C4701: 使用了可能未初始化的局部变量“best_offset”
+d:\sdk\libwebp-master\src\enc\backward_references_enc.c(918): warning C4711: 为自动内联扩展选定了函数“VP8LHashChainInit”
+d:\sdk\libwebp-master\src\enc\backward_references_enc.c(837): warning C4711: 为自动内联扩展选定了函数“VP8LRefsCursorInit”
+d:\sdk\libwebp-master\src\enc\backward_references_enc.h(207): warning C4711: 为自动内联扩展选定了函数“VP8LRefsCursorNextBlock”
+d:\sdk\libwebp-master\src\enc\backward_references_enc.c(939): warning C4711: 为自动内联扩展选定了函数“BackwardRefsWithLocalCache”
+d:\sdk\libwebp-master\src\enc\backward_references_enc.c(1004): warning C4711: 为自动内联扩展选定了函数“VP8LHashChainClear”
+d:\sdk\libwebp-master\src\enc\backward_references_enc.c(1017): warning C4711: 为自动内联扩展选定了函数“GetBackwardReferencesLowEffort”
+d:\sdk\libwebp-master\src\dsp\lossless_common.h(86): warning C4738: 将 32 位浮点型结果存储在内存中，可能会降低性能
+d:\sdk\libwebp-master\src\dsp\lossless_common.h(86): warning C4738: 将 32 位浮点型结果存储在内存中，可能会降低性能
+d:\sdk\libwebp-master\src\enc\backward_references_cost_enc.c(218): warning C4711: 为自动内联扩展选定了函数“CostIntervalAddToFreeList”
+d:\sdk\libwebp-master\src\enc\backward_references_cost_enc.c(226): warning C4711: 为自动内联扩展选定了函数“CostIntervalIsInFreeList”
+d:\sdk\libwebp-master\src\enc\backward_references_cost_enc.c(360): warning C4711: 为自动内联扩展选定了函数“CostIntervalIsInFreeList”
+d:\sdk\libwebp-master\src\enc\backward_references_cost_enc.c(361): warning C4711: 为自动内联扩展选定了函数“CostIntervalAddToFreeList”
+d:\sdk\libwebp-master\src\enc\backward_references_cost_enc.c(52): warning C4738: 将 32 位浮点型结果存储在内存中，可能会降低性能
+d:\sdk\libwebp-master\src\enc\backward_references_cost_enc.c(52): warning C4738: 将 32 位浮点型结果存储在内存中，可能会降低性能
+d:\sdk\libwebp-master\src\dsp\lossless_common.h(86): warning C4738: 将 32 位浮点型结果存储在内存中，可能会降低性能
+d:\sdk\libwebp-master\src\dsp\lossless_common.h(86): warning C4738: 将 32 位浮点型结果存储在内存中，可能会降低性能
+d:\sdk\libwebp-master\src\enc\backward_references_cost_enc.c(360): warning C4711: 为自动内联扩展选定了函数“CostIntervalIsInFreeList”
+d:\sdk\libwebp-master\src\enc\backward_references_cost_enc.c(361): warning C4711: 为自动内联扩展选定了函数“CostIntervalAddToFreeList”
+d:\sdk\libwebp-master\src\enc\backward_references_cost_enc.c(283): warning C4711: 为自动内联扩展选定了函数“CostManagerClear”
+d:\sdk\libwebp-master\src\enc\backward_references_cost_enc.c(226): warning C4711: 为自动内联扩展选定了函数“CostIntervalIsInFreeList”
+d:\sdk\libwebp-master\src\enc\backward_references_cost_enc.c(240): warning C4711: 为自动内联扩展选定了函数“DeleteIntervalList”
+d:\sdk\libwebp-master\src\enc\backward_references_cost_enc.c(226): warning C4711: 为自动内联扩展选定了函数“CostIntervalIsInFreeList”
+d:\sdk\libwebp-master\src\enc\backward_references_cost_enc.c(242): warning C4711: 为自动内联扩展选定了函数“DeleteIntervalList”
+d:\sdk\libwebp-master\src\enc\backward_references_cost_enc.c(310): warning C4711: 为自动内联扩展选定了函数“CostManagerClear”
+d:\sdk\libwebp-master\src\enc\backward_references_cost_enc.c(360): warning C4711: 为自动内联扩展选定了函数“CostIntervalIsInFreeList”
+d:\sdk\libwebp-master\src\enc\backward_references_cost_enc.c(361): warning C4711: 为自动内联扩展选定了函数“CostIntervalAddToFreeList”
+d:\sdk\libwebp-master\src\enc\backward_references_cost_enc.c(594): warning C4711: 为自动内联扩展选定了函数“CostModelBuild”
+d:\sdk\libwebp-master\src\enc\backward_references_cost_enc.c(360): warning C4711: 为自动内联扩展选定了函数“CostIntervalIsInFreeList”
+d:\sdk\libwebp-master\src\enc\backward_references_cost_enc.c(361): warning C4711: 为自动内联扩展选定了函数“CostIntervalAddToFreeList”
+d:\sdk\libwebp-master\src\enc\backward_references_cost_enc.c(360): warning C4711: 为自动内联扩展选定了函数“CostIntervalIsInFreeList”
+d:\sdk\libwebp-master\src\enc\backward_references_cost_enc.c(361): warning C4711: 为自动内联扩展选定了函数“CostIntervalAddToFreeList”
+d:\sdk\libwebp-master\src\enc\backward_references_cost_enc.c(360): warning C4711: 为自动内联扩展选定了函数“CostIntervalIsInFreeList”
+d:\sdk\libwebp-master\src\enc\backward_references_cost_enc.c(361): warning C4711: 为自动内联扩展选定了函数“CostIntervalAddToFreeList”
+d:\sdk\libwebp-master\src\enc\backward_references_cost_enc.c(360): warning C4711: 为自动内联扩展选定了函数“CostIntervalIsInFreeList”
+d:\sdk\libwebp-master\src\enc\backward_references_cost_enc.c(361): warning C4711: 为自动内联扩展选定了函数“CostIntervalAddToFreeList”
+d:\sdk\libwebp-master\src\enc\backward_references_cost_enc.c(360): warning C4711: 为自动内联扩展选定了函数“CostIntervalIsInFreeList”
+d:\sdk\libwebp-master\src\enc\backward_references_cost_enc.c(361): warning C4711: 为自动内联扩展选定了函数“CostIntervalAddToFreeList”
+d:\sdk\libwebp-master\src\enc\backward_references_cost_enc.c(680): warning C4711: 为自动内联扩展选定了函数“CostManagerClear”
+d:\sdk\libwebp-master\src\enc\backward_references_cost_enc.c(780): warning C4711: 为自动内联扩展选定了函数“TraceBackwards”
+d:\sdk\libwebp-master\src\enc\backward_references_cost_enc.c(781): warning C4711: 为自动内联扩展选定了函数“BackwardReferencesHashChainFollowChosenPath”
+d:\sdk\libwebp-master\src\enc\analysis_enc.c(241): warning C4711: 为自动内联扩展选定了函数“InitHistogram”
+d:\sdk\libwebp-master\src\enc\analysis_enc.c(245): warning C4711: 为自动内联扩展选定了函数“GetAlpha”
+d:\sdk\libwebp-master\src\enc\analysis_enc.c(356): warning C4711: 为自动内联扩展选定了函数“DefaultMBInfo”
+d:\sdk\libwebp-master\src\enc\analysis_enc.c(289): warning C4711: 为自动内联扩展选定了函数“InitHistogram”
+d:\sdk\libwebp-master\src\enc\analysis_enc.c(293): warning C4711: 为自动内联扩展选定了函数“GetAlpha”
+d:\sdk\libwebp-master\src\enc\analysis_enc.c(241): warning C4711: 为自动内联扩展选定了函数“InitHistogram”
+d:\sdk\libwebp-master\src\enc\analysis_enc.c(245): warning C4711: 为自动内联扩展选定了函数“GetAlpha”
+d:\sdk\libwebp-master\src\enc\analysis_enc.c(320): warning C4711: 为自动内联扩展选定了函数“MBAnalyzeBestIntra16Mode”
+d:\sdk\libwebp-master\src\enc\analysis_enc.c(289): warning C4711: 为自动内联扩展选定了函数“InitHistogram”
+d:\sdk\libwebp-master\src\enc\analysis_enc.c(293): warning C4711: 为自动内联扩展选定了函数“GetAlpha”
+d:\sdk\libwebp-master\src\enc\analysis_enc.c(322): warning C4711: 为自动内联扩展选定了函数“MBAnalyzeBestUVMode”
+d:\sdk\libwebp-master\src\enc\analysis_enc.c(326): warning C4711: 为自动内联扩展选定了函数“FinalAlphaValue”
+d:\sdk\libwebp-master\src\enc\analysis_enc.c(241): warning C4711: 为自动内联扩展选定了函数“InitHistogram”
+d:\sdk\libwebp-master\src\enc\analysis_enc.c(245): warning C4711: 为自动内联扩展选定了函数“GetAlpha”
+d:\sdk\libwebp-master\src\enc\analysis_enc.c(320): warning C4711: 为自动内联扩展选定了函数“MBAnalyzeBestIntra16Mode”
+d:\sdk\libwebp-master\src\enc\analysis_enc.c(289): warning C4711: 为自动内联扩展选定了函数“InitHistogram”
+d:\sdk\libwebp-master\src\enc\analysis_enc.c(293): warning C4711: 为自动内联扩展选定了函数“GetAlpha”
+d:\sdk\libwebp-master\src\enc\analysis_enc.c(322): warning C4711: 为自动内联扩展选定了函数“MBAnalyzeBestUVMode”
+d:\sdk\libwebp-master\src\enc\analysis_enc.c(326): warning C4711: 为自动内联扩展选定了函数“FinalAlphaValue”
+d:\sdk\libwebp-master\src\enc\analysis_enc.c(387): warning C4711: 为自动内联扩展选定了函数“MBAnalyze”
+d:\sdk\libwebp-master\src\enc\analysis_enc.c(457): warning C4711: 为自动内联扩展选定了函数“MergeJobs”
+d:\sdk\libwebp-master\src\enc\analysis_enc.c(356): warning C4711: 为自动内联扩展选定了函数“DefaultMBInfo”
+d:\sdk\libwebp-master\src\enc\analysis_enc.c(471): warning C4711: 为自动内联扩展选定了函数“ResetAllMBInfo”
+d:\sdk\libwebp-master\src\enc\alpha_enc.c(139): warning C4711: 为自动内联扩展选定了函数“EncodeLossless”
+d:\sdk\libwebp-master\src\enc\alpha_enc.c(210): warning C4711: 为自动内联扩展选定了函数“GetNumColors”
+d:\sdk\libwebp-master\src\enc\alpha_enc.c(210): warning C4711: 为自动内联扩展选定了函数“GetNumColors”
+d:\sdk\libwebp-master\src\enc\alpha_enc.c(242): warning C4711: 为自动内联扩展选定了函数“GetFilterMap”
+d:\sdk\libwebp-master\src\enc\alpha_enc.c(244): warning C4711: 为自动内联扩展选定了函数“InitFilterTrial”
+  正在编译...
+  tree_enc.c
+D:\sdk\libwebp-master\src/utils/bit_writer_utils.h(135): warning C4127: 条件表达式是常量
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(179): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“alpha_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(204): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“lambda_trellis_uv_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(222): warning C4820: “<anonymous-tag>”:“6”字节填充添加在 数据成员“derr”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(238): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“i4_boundary_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(242): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“left_nz_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(265): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“yuv_mem_”后
+  vp8l_enc.c
+D:\sdk\libwebp-master\src/enc/backward_references_enc.h(42): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“mode”后
+D:\sdk\libwebp-master\src/enc/histogram_enc.h(43): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“trivial_symbol_”后
+D:\sdk\libwebp-master\src/enc/histogram_enc.h(48): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“is_used_”后
+D:\sdk\libwebp-master\src/utils/bit_writer_utils.h(135): warning C4127: 条件表达式是常量
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(179): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“alpha_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(204): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“lambda_trellis_uv_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(222): warning C4820: “<anonymous-tag>”:“6”字节填充添加在 数据成员“derr”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(238): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“i4_boundary_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(242): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“left_nz_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(265): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“yuv_mem_”后
+D:\sdk\libwebp-master\src\enc\vp8l_enc.c(1382): warning C4242: “=”: 从“uint32_t”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\vp8l_enc.c(1403): warning C4242: “=”: 从“int”转换到“uint16_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\vp8l_enc.c(1410): warning C4242: “=”: 从“uint32_t”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\vp8l_enc.c(1412): warning C4242: “=”: 从“uint32_t”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\vp8l_enc.c(1414): warning C4242: “=”: 从“uint32_t”转换到“uint8_t”，可能丢失数据
+D:\sdk\libwebp-master\src\enc\vp8l_enc.c(1420): warning C4242: “=”: 从“uint32_t”转换到“uint8_t”，可能丢失数据
+  webp_enc.c
+D:\sdk\libwebp-master\src/utils/bit_writer_utils.h(135): warning C4127: 条件表达式是常量
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(179): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“alpha_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(204): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“lambda_trellis_uv_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(222): warning C4820: “<anonymous-tag>”:“6”字节填充添加在 数据成员“derr”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(238): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“i4_boundary_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(242): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“left_nz_”后
+D:\sdk\libwebp-master\src/enc/vp8i_enc.h(265): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“yuv_mem_”后
+D:\sdk\libwebp-master\src/enc/backward_references_enc.h(42): warning C4820: “<anonymous-tag>”:“1”字节填充添加在 数据成员“mode”后
+D:\sdk\libwebp-master\src/enc/histogram_enc.h(43): warning C4820: “<anonymous-tag>”:“4”字节填充添加在 数据成员“trivial_symbol_”后
+D:\sdk\libwebp-master\src/enc/histogram_enc.h(48): warning C4820: “<anonymous-tag>”:“3”字节填充添加在 数据成员“is_used_”后
+  正在生成代码...
+d:\sdk\libwebp-master\src\enc\webp_enc.c(275): warning C4711: 为自动内联扩展选定了函数“GetPSNR”
+d:\sdk\libwebp-master\src\enc\webp_enc.c(276): warning C4711: 为自动内联扩展选定了函数“GetPSNR”
+d:\sdk\libwebp-master\src\enc\webp_enc.c(277): warning C4711: 为自动内联扩展选定了函数“GetPSNR”
+d:\sdk\libwebp-master\src\enc\webp_enc.c(278): warning C4711: 为自动内联扩展选定了函数“GetPSNR”
+d:\sdk\libwebp-master\src\enc\webp_enc.c(279): warning C4711: 为自动内联扩展选定了函数“GetPSNR”
+d:\sdk\libwebp-master\src\enc\webp_enc.c(320): warning C4711: 为自动内联扩展选定了函数“WebPEncodingSetError”
+d:\sdk\libwebp-master\src\enc\webp_enc.c(203): warning C4711: 为自动内联扩展选定了函数“WebPEncodingSetError”
+d:\sdk\libwebp-master\src\enc\webp_enc.c(236): warning C4711: 为自动内联扩展选定了函数“MapConfigToTools”
+d:\sdk\libwebp-master\src\enc\webp_enc.c(239): warning C4711: 为自动内联扩展选定了函数“ResetSegmentHeader”
+d:\sdk\libwebp-master\src\enc\webp_enc.c(240): warning C4711: 为自动内联扩展选定了函数“ResetFilterHeader”
+d:\sdk\libwebp-master\src\enc\webp_enc.c(241): warning C4711: 为自动内联扩展选定了函数“ResetBoundaryPredictions”
+d:\sdk\libwebp-master\src\enc\webp_enc.c(275): warning C4711: 为自动内联扩展选定了函数“GetPSNR”
+d:\sdk\libwebp-master\src\enc\webp_enc.c(276): warning C4711: 为自动内联扩展选定了函数“GetPSNR”
+d:\sdk\libwebp-master\src\enc\webp_enc.c(277): warning C4711: 为自动内联扩展选定了函数“GetPSNR”
+d:\sdk\libwebp-master\src\enc\webp_enc.c(278): warning C4711: 为自动内联扩展选定了函数“GetPSNR”
+d:\sdk\libwebp-master\src\enc\webp_enc.c(279): warning C4711: 为自动内联扩展选定了函数“GetPSNR”
+d:\sdk\libwebp-master\src\enc\webp_enc.c(295): warning C4711: 为自动内联扩展选定了函数“FinalizePSNR”
+d:\sdk\libwebp-master\src\enc\webp_enc.c(332): warning C4711: 为自动内联扩展选定了函数“WebPEncodingSetError”
+d:\sdk\libwebp-master\src\enc\webp_enc.c(334): warning C4711: 为自动内联扩展选定了函数“WebPEncodingSetError”
+d:\sdk\libwebp-master\src\enc\webp_enc.c(337): warning C4711: 为自动内联扩展选定了函数“WebPEncodingSetError”
+d:\sdk\libwebp-master\src\enc\webp_enc.c(340): warning C4711: 为自动内联扩展选定了函数“WebPEncodingSetError”
+d:\sdk\libwebp-master\src\enc\webp_enc.c(343): warning C4711: 为自动内联扩展选定了函数“WebPEncodingSetError”
+d:\sdk\libwebp-master\src\enc\webp_enc.c(395): warning C4711: 为自动内联扩展选定了函数“DeleteVP8Encoder”
+d:\sdk\libwebp-master\src\dsp\lossless_common.h(86): warning C4738: 将 32 位浮点型结果存储在内存中，可能会降低性能
+d:\sdk\libwebp-master\src\dsp\lossless_common.h(86): warning C4738: 将 32 位浮点型结果存储在内存中，可能会降低性能
+d:\sdk\libwebp-master\src\enc\vp8l_enc.c(219): warning C4711: 为自动内联扩展选定了函数“AddSingle”
+d:\sdk\libwebp-master\src\enc\vp8l_enc.c(224): warning C4711: 为自动内联扩展选定了函数“AddSingle”
+d:\sdk\libwebp-master\src\enc\vp8l_enc.c(229): warning C4711: 为自动内联扩展选定了函数“AddSingleSubGreen”
+d:\sdk\libwebp-master\src\enc\vp8l_enc.c(232): warning C4711: 为自动内联扩展选定了函数“AddSingleSubGreen”
+d:\sdk\libwebp-master\src\enc\vp8l_enc.c(1238): warning C4711: 为自动内联扩展选定了函数“ClearTransformBuffer”
+d:\sdk\libwebp-master\src\enc\vp8l_enc.c(1506): warning C4711: 为自动内联扩展选定了函数“ClearTransformBuffer”
+d:\sdk\libwebp-master\src\enc\vp8l_enc.c(633): warning C4711: 为自动内联扩展选定了函数“StoreHuffmanTreeOfHuffmanTreeToBitMask”
+d:\sdk\libwebp-master\src\enc\vp8l_enc.c(634): warning C4711: 为自动内联扩展选定了函数“ClearHuffmanTreeIfOnlyOneSymbol”
+d:\sdk\libwebp-master\src\enc\vp8l_enc.c(670): warning C4711: 为自动内联扩展选定了函数“StoreHuffmanTreeToBitMask”
+d:\sdk\libwebp-master\src\enc\vp8l_enc.c(1418): warning C4711: 为自动内联扩展选定了函数“PrepareMapToPalette”
+d:\sdk\libwebp-master\src\enc\vp8l_enc.c(1178): warning C4711: 为自动内联扩展选定了函数“WriteRiffHeader”
+d:\sdk\libwebp-master\src\enc\vp8l_enc.c(134): warning C4711: 为自动内联扩展选定了函数“PaletteHasNonMonotonousDeltas”
+d:\sdk\libwebp-master\src\enc\vp8l_enc.c(135): warning C4711: 为自动内联扩展选定了函数“GreedyMinimizeDeltas”
+d:\sdk\libwebp-master\src\enc\vp8l_enc.c(394): warning C4711: 为自动内联扩展选定了函数“GetHistoBits”
+d:\sdk\libwebp-master\src\enc\vp8l_enc.c(396): warning C4711: 为自动内联扩展选定了函数“GetTransformBits”
+d:\sdk\libwebp-master\src\enc\vp8l_enc.c(1606): warning C4711: 为自动内联扩展选定了函数“EncodePalette”
+d:\sdk\libwebp-master\src\enc\vp8l_enc.c(1608): warning C4711: 为自动内联扩展选定了函数“MapImageFromPalette”
+d:\sdk\libwebp-master\src\enc\vp8l_enc.c(1620): warning C4711: 为自动内联扩展选定了函数“MakeInputImageCopy”
+d:\sdk\libwebp-master\src\enc\vp8l_enc.c(1628): warning C4711: 为自动内联扩展选定了函数“ApplySubtractGreen”
+d:\sdk\libwebp-master\src\enc\vp8l_enc.c(1632): warning C4711: 为自动内联扩展选定了函数“ApplyPredictFilter”
+d:\sdk\libwebp-master\src\enc\vp8l_enc.c(1638): warning C4711: 为自动内联扩展选定了函数“ApplyCrossColorFilter”
+d:\sdk\libwebp-master\src\enc\vp8l_enc.c(1695): warning C4711: 为自动内联扩展选定了函数“VP8LEncoderNew”
+d:\sdk\libwebp-master\src\enc\vp8l_enc.c(1759): warning C4711: 为自动内联扩展选定了函数“VP8LEncoderNew”
+d:\sdk\libwebp-master\src\enc\vp8l_enc.c(1506): warning C4711: 为自动内联扩展选定了函数“ClearTransformBuffer”
+d:\sdk\libwebp-master\src\enc\vp8l_enc.c(1826): warning C4711: 为自动内联扩展选定了函数“VP8LEncoderDelete”
+d:\sdk\libwebp-master\src\enc\vp8l_enc.c(1506): warning C4711: 为自动内联扩展选定了函数“ClearTransformBuffer”
+d:\sdk\libwebp-master\src\enc\vp8l_enc.c(1827): warning C4711: 为自动内联扩展选定了函数“VP8LEncoderDelete”
+d:\sdk\libwebp-master\src\enc\vp8l_enc.c(1806): warning C4701: 使用了可能未初始化的局部变量“params_side”
+d:\sdk\libwebp-master\src\enc\vp8l_enc.c(1806): warning C4701: 使用了可能未初始化的局部变量“params_main”
+d:\sdk\libwebp-master\src\enc\vp8l_enc.c(1813): warning C4701: 使用了可能未初始化的局部变量“stats_side”
+d:\sdk\libwebp-master\src\enc\vp8l_enc.c(1880): warning C4711: 为自动内联扩展选定了函数“WriteImageSize”
+d:\sdk\libwebp-master\src\enc\vp8l_enc.c(1887): warning C4711: 为自动内联扩展选定了函数“WriteRealAlphaAndVersion”
+d:\sdk\libwebp-master\src\enc\vp8l_enc.c(1178): warning C4711: 为自动内联扩展选定了函数“WriteRiffHeader”
+d:\sdk\libwebp-master\src\enc\vp8l_enc.c(1901): warning C4711: 为自动内联扩展选定了函数“WriteImage”
+d:\sdk\libwebp-master\src\enc\tree_enc.c(321): warning C4711: 为自动内联扩展选定了函数“PutSegment”
+d:\sdk\libwebp-master\src\enc\tree_enc.c(327): warning C4711: 为自动内联扩展选定了函数“PutI16Mode”
+d:\sdk\libwebp-master\src\enc\tree_enc.c(336): warning C4711: 为自动内联扩展选定了函数“PutI4Mode”
+d:\sdk\libwebp-master\src\enc\tree_enc.c(342): warning C4711: 为自动内联扩展选定了函数“PutUVMode”
+  webpencode.vcxproj -> D:\sdk\libwebp-master\webp_js\webpencode.dir\Debug\webpencode.lib

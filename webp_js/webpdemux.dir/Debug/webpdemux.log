@@ -1,0 +1,57 @@
+﻿  Building Custom Rule D:/sdk/libwebp-master/CMakeLists.txt
+  CMake does not need to re-run because D:/sdk/libwebp-master/webp_js/CMakeFiles/generate.stamp is up-to-date.
+cl : 命令行 warning D9002: 忽略未知选项“-g”
+  anim_decode.c
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+  demux.c
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: 没有将“__cplusplus”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: “__slwpcb”: 未给出函数原型: 将“()”转换为“(void)”
+  正在生成代码...
+d:\sdk\libwebp-master\src\demux\demux.c(121): warning C4711: 为自动内联扩展选定了函数“RemapMemBuffer”
+d:\sdk\libwebp-master\src\demux\demux.c(360): warning C4711: 为自动内联扩展选定了函数“AddChunk”
+d:\sdk\libwebp-master\src\demux\demux.c(678): warning C4711: 为自动内联扩展选定了函数“SetFrameInfo”
+d:\sdk\libwebp-master\src\demux\demux.c(686): warning C4711: 为自动内联扩展选定了函数“IsValidSimpleFormat”
+d:\sdk\libwebp-master\src\demux\demux.c(636): warning C4711: 为自动内联扩展选定了函数“CheckFrameBounds”
+d:\sdk\libwebp-master\src\demux\demux.c(831): warning C4711: 为自动内联扩展选定了函数“GetFramePayload”
+d:\sdk\libwebp-master\src\demux\demux.c(920): warning C4711: 为自动内联扩展选定了函数“ChunkCount”
+d:\sdk\libwebp-master\src\demux\demux.c(926): warning C4711: 为自动内联扩展选定了函数“GetChunk”
+d:\sdk\libwebp-master\src\demux\demux.c(858): warning C4711: 为自动内联扩展选定了函数“GetFrame”
+d:\sdk\libwebp-master\src\demux\demux.c(831): warning C4711: 为自动内联扩展选定了函数“GetFramePayload”
+d:\sdk\libwebp-master\src\demux\demux.c(861): warning C4711: 为自动内联扩展选定了函数“SynthesizeFrame”
+d:\sdk\libwebp-master\src\demux\demux.c(265): warning C4711: 为自动内联扩展选定了函数“SetFrameInfo”
+d:\sdk\libwebp-master\src\demux\demux.c(121): warning C4711: 为自动内联扩展选定了函数“RemapMemBuffer”
+d:\sdk\libwebp-master\src\demux\demux.c(710): warning C4711: 为自动内联扩展选定了函数“InitMemBuffer”
+d:\sdk\libwebp-master\src\demux\demux.c(711): warning C4711: 为自动内联扩展选定了函数“ReadHeader”
+d:\sdk\libwebp-master\src\demux\demux.c(678): warning C4711: 为自动内联扩展选定了函数“SetFrameInfo”
+d:\sdk\libwebp-master\src\demux\demux.c(686): warning C4711: 为自动内联扩展选定了函数“IsValidSimpleFormat”
+d:\sdk\libwebp-master\src\demux\demux.c(716): warning C4711: 为自动内联扩展选定了函数“CreateRawImageDemuxer”
+d:\sdk\libwebp-master\src\demux\demux.c(750): warning C4711: 为自动内联扩展选定了函数“WebPDemuxDelete”
+d:\sdk\libwebp-master\src\demux\demux.c(315): warning C4711: 为自动内联扩展选定了函数“NewFrame”
+d:\sdk\libwebp-master\src\demux\demux.c(465): warning C4711: 为自动内联扩展选定了函数“ParseSingleImage”
+d:\sdk\libwebp-master\src\demux\demux.c(360): warning C4711: 为自动内联扩展选定了函数“AddChunk”
+d:\sdk\libwebp-master\src\demux\demux.c(507): warning C4711: 为自动内联扩展选定了函数“StoreChunk”
+d:\sdk\libwebp-master\src\demux\anim_decode.c(59): warning C4711: 为自动内联扩展选定了函数“DefaultDecoderOptions”
+d:\sdk\libwebp-master\src\demux\anim_decode.c(182): warning C4711: 为自动内联扩展选定了函数“IsFullFrame”
+d:\sdk\libwebp-master\src\demux\anim_decode.c(187): warning C4711: 为自动内联扩展选定了函数“IsFullFrame”
+d:\sdk\libwebp-master\src\demux\anim_decode.c(271): warning C4711: 为自动内联扩展选定了函数“BlendPixelPremult”
+d:\sdk\libwebp-master\src\demux\anim_decode.c(319): warning C4711: 为自动内联扩展选定了函数“WebPAnimDecoderHasMoreFrames”
+d:\sdk\libwebp-master\src\demux\anim_decode.c(182): warning C4711: 为自动内联扩展选定了函数“IsFullFrame”
+d:\sdk\libwebp-master\src\demux\anim_decode.c(187): warning C4711: 为自动内联扩展选定了函数“IsFullFrame”
+d:\sdk\libwebp-master\src\demux\anim_decode.c(332): warning C4711: 为自动内联扩展选定了函数“IsKeyFrame”
+d:\sdk\libwebp-master\src\demux\anim_decode.c(335): warning C4711: 为自动内联扩展选定了函数“ZeroFillCanvas”
+d:\sdk\libwebp-master\src\demux\anim_decode.c(390): warning C4711: 为自动内联扩展选定了函数“FindBlendRangeAtRow”
+d:\sdk\libwebp-master\src\demux\anim_decode.c(413): warning C4711: 为自动内联扩展选定了函数“ZeroFillFrameRect”
+d:\sdk\libwebp-master\src\demux\anim_decode.c(221): warning C4711: 为自动内联扩展选定了函数“BlendChannelNonPremult”
+d:\sdk\libwebp-master\src\demux\anim_decode.c(223): warning C4711: 为自动内联扩展选定了函数“BlendChannelNonPremult”
+d:\sdk\libwebp-master\src\demux\anim_decode.c(225): warning C4711: 为自动内联扩展选定了函数“BlendChannelNonPremult”
+d:\sdk\libwebp-master\src\demux\anim_decode.c(244): warning C4711: 为自动内联扩展选定了函数“BlendPixelNonPremult”
+d:\sdk\libwebp-master\src\demux\anim_decode.c(102): warning C4711: 为自动内联扩展选定了函数“DefaultDecoderOptions”
+d:\sdk\libwebp-master\src\demux\anim_decode.c(104): warning C4711: 为自动内联扩展选定了函数“ApplyDecoderOptions”
+d:\sdk\libwebp-master\src\demux\anim_decode.c(123): warning C4711: 为自动内联扩展选定了函数“WebPAnimDecoderReset”
+d:\sdk\libwebp-master\src\demux\anim_decode.c(127): warning C4711: 为自动内联扩展选定了函数“WebPAnimDecoderDelete”
+  webpdemux.vcxproj -> D:\sdk\libwebp-master\webp_js\Debug\libwebpdemux.bc
