@@ -10,7 +10,7 @@
 //  Simple WebP-to-SDL wrapper. Useful for emscripten.
 //
 // Author: James Zern (jzern@google.com)
-
+#include <stdlib.h>
 #ifdef HAVE_CONFIG_H
 #include "src/webp/config.h"
 #endif
@@ -21,11 +21,12 @@
 
 #include <stdio.h>
 #include "src/webp/decode.h"
-
 #if defined(WEBP_HAVE_JUST_SDL_H)
-#include <SDL.h>
+//#include <SDL.h>
+#include "SDL.h"
 #else
-#include <SDL/SDL.h>
+#include "SDL.h"
+//#include <SDL/SDL.h>
 #endif
 
 static int init_ok = 0;

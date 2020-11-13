@@ -1,3 +1,1 @@
-﻿  Building Custom Rule D:/sdk/libwebp-master/CMakeLists.txt
-  CMake does not need to re-run because D:/sdk/libwebp-master/webp_js/CMakeFiles/generate.stamp is up-to-date.
-LINK : fatal error LNK1181: 无法打开输入文件“D:\sdk\libwebp-master\webp_js\webpdecode.dir\Debug\alpha_dec.o”
+﻿LINK : fatal error LNK1181: 无法打开输入文件“D:\sdk\libwebp-master\webp_js\webputilsdecode.dir\Debug\bit_reader_utils.o”

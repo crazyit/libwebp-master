@@ -1,28 +1,19 @@
 # CMake generation dependency list for this directory.
 C:/Program Files/CMake/share/cmake-3.14/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
-C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeCCompiler.cmake.in
 C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeCInformation.cmake
 C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
 C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeCommonLanguageInclude.cmake
-C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeConfigurableFile.in
-C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeDetermineCCompiler.cmake
-C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeDetermineCompiler.cmake
-C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeDetermineSystem.cmake
-C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeFindBinUtils.cmake
 C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeGenericSystem.cmake
 C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeInitializeConfigs.cmake
 C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeLanguageInformation.cmake
 C:/Program Files/CMake/share/cmake-3.14/Modules/CMakePackageConfigHelpers.cmake
 C:/Program Files/CMake/share/cmake-3.14/Modules/CMakePushCheckState.cmake
-C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeSystem.cmake.in
 C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeSystemSpecificInitialize.cmake
-C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeTestCCompiler.cmake
 C:/Program Files/CMake/share/cmake-3.14/Modules/CheckCCompilerFlag.cmake
 C:/Program Files/CMake/share/cmake-3.14/Modules/CheckCSourceCompiles.cmake
 C:/Program Files/CMake/share/cmake-3.14/Modules/CheckIncludeFiles.cmake
 C:/Program Files/CMake/share/cmake-3.14/Modules/Compiler/CMakeCommonCompilerMacros.cmake
 C:/Program Files/CMake/share/cmake-3.14/Modules/Compiler/Clang-C.cmake
-C:/Program Files/CMake/share/cmake-3.14/Modules/Compiler/Clang-FindBinUtils.cmake
 C:/Program Files/CMake/share/cmake-3.14/Modules/Compiler/Clang.cmake
 C:/Program Files/CMake/share/cmake-3.14/Modules/Compiler/GNU.cmake
 C:/Program Files/CMake/share/cmake-3.14/Modules/FindGIF.cmake
@@ -49,20 +40,3 @@ D:/sdk/libwebp-master/src/libwebp.pc.in
 D:/sdk/libwebp-master/src/libwebpdecoder.pc.in
 D:/sdk/libwebp-master/webp_js/CMakeFiles/3.14.7/CMakeCCompiler.cmake
 D:/sdk/libwebp-master/webp_js/CMakeFiles/3.14.7/CMakeSystem.cmake
-D:/sdk/libwebp-master/webp_js/CMakeFiles/CheckIncludeFiles/HAVE_DLFCN_H.c
-D:/sdk/libwebp-master/webp_js/CMakeFiles/CheckIncludeFiles/HAVE_GLUT_GLUT_H.c
-D:/sdk/libwebp-master/webp_js/CMakeFiles/CheckIncludeFiles/HAVE_GL_GLUT_H.c
-D:/sdk/libwebp-master/webp_js/CMakeFiles/CheckIncludeFiles/HAVE_INTTYPES_H.c
-D:/sdk/libwebp-master/webp_js/CMakeFiles/CheckIncludeFiles/HAVE_MEMORY_H.c
-D:/sdk/libwebp-master/webp_js/CMakeFiles/CheckIncludeFiles/HAVE_OPENGL_GLUT_H.c
-D:/sdk/libwebp-master/webp_js/CMakeFiles/CheckIncludeFiles/HAVE_SHLWAPI_H.c
-D:/sdk/libwebp-master/webp_js/CMakeFiles/CheckIncludeFiles/HAVE_STDINT_H.c
-D:/sdk/libwebp-master/webp_js/CMakeFiles/CheckIncludeFiles/HAVE_STDLIB_H.c
-D:/sdk/libwebp-master/webp_js/CMakeFiles/CheckIncludeFiles/HAVE_STRINGS_H.c
-D:/sdk/libwebp-master/webp_js/CMakeFiles/CheckIncludeFiles/HAVE_STRING_H.c
-D:/sdk/libwebp-master/webp_js/CMakeFiles/CheckIncludeFiles/HAVE_SYS_STAT_H.c
-D:/sdk/libwebp-master/webp_js/CMakeFiles/CheckIncludeFiles/HAVE_SYS_TYPES_H.c
-D:/sdk/libwebp-master/webp_js/CMakeFiles/CheckIncludeFiles/HAVE_UNISTD_H.c
-D:/sdk/libwebp-master/webp_js/CMakeFiles/CheckIncludeFiles/HAVE_WINCODEC_H.c
-D:/sdk/libwebp-master/webp_js/CMakeFiles/CheckIncludeFiles/HAVE_WINDOWS_H.c
-D:/sdk/libwebp-master/webp_js/CMakeFiles/CheckIncludeFiles/STDC_HEADERS.c
